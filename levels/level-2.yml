@@ -1,14 +1,14 @@
 level: 2
-prefix: '&fα T1'
+prefix: '&7下阶·甲'
 attr:
   __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelAttr
-  health: 100.0
-  damage: 4.0
+  health: 15.0
+  damage: 3.0
   damageResist: 0.0
-  exp: 10
-  aggro: 45.0
+  exp: 1
+  aggro: 40.0
 spawnConfig:
   __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelSpawnConfig
-  from: 265
+  from: 75
   to: 6000
   weight: 2

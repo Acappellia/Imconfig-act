@@ -1,5 +1,5 @@
 language: zh_CN
-nameTag: '&r[&0黑化&r] [{level.prefix}&r] {mob.name} &cLv.&e{level.level}&r'
+nameTag: '&r< {level.prefix} &r> &cLv.&e{level.level}&r {mob.name}'
 bossbar:
   __class__: cat.nyaa.infiniteinfernal.configs.BossbarConfig
   enabled: true
@@ -53,26 +53,26 @@ worlds:
       __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$BroadcastConfig
       default: NEARBY
       range: 160
-  newbie:
+  nanospace:
     __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig
     disable-natural-spawning: true
-    max-mob-per-player: 1
-    max-mob-in-world: 80
+    max-mob-per-player: 2
+    max-mob-in-world: 160
     spawn-range-min: 8
     spawn-range-max: 32
-    mob-active-interval: 80
+    mob-active-interval: 60
     aggro:
       __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$AggroConfig
       range:
         __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$AggroConfig$RangeConfig
         min: 4
-        max: 36
+        max: 64
       base: 32
       dec: effect:INVISIBILITY:10
       inc: effect:GLOWING:10
     looting:
       __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$LootingConfig
-      global: 90
+      global: 100
       overall:
         __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$LootingConfig$LootingModifiers
         inc:
@@ -94,5 +94,5 @@ worlds:
     broadcast:
       __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$BroadcastConfig
       default: NEARBY
-      range: 128
+      range: 64
 GetDropMessageFeedback: false

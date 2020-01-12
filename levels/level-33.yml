@@ -1,14 +1,14 @@
-level: 15
-prefix: '&2中阶·丁'
+level: 33
+prefix: '&c上阶·壬'
 attr:
   __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelAttr
-  health: 1000.0
-  damage: 19.0
-  damageResist: 60.0
-  exp: 7
-  aggro: 50.0
+  health: 8000.0
+  damage: 40.0
+  damageResist: 90.0
+  exp: 40
+  aggro: 60.0
 spawnConfig:
   __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelSpawnConfig
-  from: 425
+  from: 875
   to: 6000
-  weight: 15
+  weight: 33

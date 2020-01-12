@@ -1,14 +1,14 @@
 level: 8
-prefix: '&dγ T3'
+prefix: '&f下阶·乙'
 attr:
   __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelAttr
-  health: 1350.0
-  damage: 37.0
+  health: 120.0
+  damage: 10.0
   damageResist: 0.0
-  exp: 100
-  aggro: 75.0
+  exp: 2
+  aggro: 40.0
 spawnConfig:
   __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelSpawnConfig
-  from: 1255
+  from: 250
   to: 6000
   weight: 8

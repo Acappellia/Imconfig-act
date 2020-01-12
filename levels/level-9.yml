@@ -1,14 +1,14 @@
 level: 9
-prefix: '&6δ T4'
+prefix: '&b下阶·丙'
 attr:
   __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelAttr
-  health: 1750.0
-  damage: 47.0
+  health: 140.0
+  damage: 12.0
   damageResist: 0.0
-  exp: 125
-  aggro: 80.0
+  exp: 3
+  aggro: 40.0
 spawnConfig:
   __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelSpawnConfig
-  from: 1420
+  from: 275
   to: 6000
   weight: 9
