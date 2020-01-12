@@ -34,17 +34,11 @@ worlds:
       overall:
         __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$LootingConfig$LootingModifiers
         inc:
-        - attribute:GENERIC_LUCK:10
-        - enchant:LOOTING:2
         dec:
-        - effect:UNLUCK:10
       dynamic:
         __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$LootingConfig$LootingModifiers
         inc:
-        - attribute:GENERIC_LUCK:10
-        - enchant:LOOTING:2
         dec:
-        - effect:UNLUCK:10
     friendlyfire:
       __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$FriendlyFireConfig
       enable: false
