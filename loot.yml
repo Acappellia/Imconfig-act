@@ -34,25 +34,10 @@ items:
     nbt: eJxjZGBg2MLMIJdXmZiYnF+UGp9ZkppbXJKYnB2fkliSWJZaVJyZn8fAwBbPwcCUmcIgnpuZl5pclJhWYpWWWZRanl+UHQ9UXsTIwOqcX5pXwsLFwFySmM7FwJ6SWVyQk1jJycDiAzSXA2gPI4PKoeVpT5fMerJj1dP5fS+ntj/Zu//5lBXPZ7W8bJgFZLzYsvzpjkYOBha/xNxUBqlqpZLUihIlK6VDy82f7Gh4Nq396ZLlLydtVKoFGgYAgOpI4g==
     name: generic-coin-4
     dynamic: false
-  generic-crystal2-1:
-    __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
-    nbt: eJxjZGBgqGZmkMurTExMzi9Kjc8sSc0tLklMzo5PSSxJLEstKs7Mz2Ng4NjMwcCUmcIgkJuZl5pclJhWYlVYmlhUUsXIwOqcX5pXwsjFwFySmM7FwJ6SWVyQk1jJwcDil5ibyiBVrVSSWlGiZKV0aLnlkx1rX87Y9nLtlGcztynVAu0GABDNK1Y=
-    name: generic-crystal2-1
-    dynamic: false
-  generic-crystal3-1:
-    __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
-    nbt: eJxjZGBgaGBmkMurTExMzi9Kjc8sSc0tLklMzo5PSSxJLEstKs7Mz2Ng4NjMwcCUmcIgmpuZl5pclJhWYpWXWpKRWhQPVFzEyMDqnF+aV8LIxcBckpjOxcCekllckJNYycHA4peYm8ogVa1UklpRomSldGh5ypMdXS9nbHu5dsqzmduUaoEOAAABzi1g
-    name: generic-crystal3-1
-    dynamic: false
   generic-coin-1:
     __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
     nbt: eJxjZGBg2MLMIJdXmZiYnF+UGp9ZkppbXJKYnB2fkliSWJZaVJyZn8fAwBbPwcCUmcIgnpuZl5pclJhWYpWWWZRanl+UHQ9UXsTIwOqcX5pXwsjFwFySmM7FwJ6SWVyQk1jJycDiAzSXA2gPI4PKoeVpT5fMerJj1dP5fS+ntj/Zu//5lBXPZ7W8bJgFZLzYsvzpjkYOBha/xNxUBqlqpZLUihIlK6VDy82f7Gh4Nq396ZLlLydtVKoFGgYAf69I3w==
     name: generic-coin-1
-    dynamic: false
-  generic-crystal1-1:
-    __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
-    nbt: eJxjZGBg6GBmkMurTExMzi9Kjc8sSc0tLklMzo5PSSxJLEstKs7Mz2Ng4NjMwcCUmcIgm5uZl5pclJhWYlVQlFmcm1gE5McnF1UC9eQUMzKwOueX5pUwcjEwlySmczGwp2QWF+QkVnIwsPgl5qYySFUrlaRWlChZKR1anvRkR/fLGdterp3ybOY2pVqgQwCrozDe
-    name: generic-crystal1-1
     dynamic: false
   generic-coin-7:
     __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
