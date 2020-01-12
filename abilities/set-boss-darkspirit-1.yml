@@ -1,0 +1,43 @@
+abilities:
+  Beam:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityBeam
+    length: 64
+    particle:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: REDSTONE
+      delta:
+      - 0.0
+      - 0.0
+      - 0.0
+      speed: 0.0
+      amount: 1
+      extraData: 102,204,255,0.5
+      forced: false
+    speed: 128.0
+    spawnsPerBlock: 10.0
+    cone: 2.0
+    pierce: true
+    ignoreWall: true
+    range: 60.0
+    damageMultiplier: 0.4
+    burst: 12
+    burstInterval: 5
+    aimAtTarget: true
+  ParticleShield:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityParticleShield
+    particleConfig:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: FIREWORKS_SPARK
+      delta:
+      - 0.0
+      - 0.0
+      - 0.0
+      speed: 0.2
+      amount: 5
+      extraData: ''
+      forced: false
+    duration: 60
+    resistance: 90.0
+    thornsPercentage: 60.0
+    delay: 20
+weight: 10

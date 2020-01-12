@@ -1,0 +1,20 @@
+abilities:
+  SpawnEffect:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilitySpawnEffect
+    particle:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: FIREWORKS_SPARK
+      delta:
+      - 0.0
+      - 0.0
+      - 0.0
+      speed: 0.2
+      amount: 1
+      extraData: ''
+      forced: false
+    particleEnabled: true
+    soundEnabled: true
+    sound: ENTITY_ENDER_EYE_DEATH
+    pitch: 0.8
+    volume: 1.0
+weight: 10

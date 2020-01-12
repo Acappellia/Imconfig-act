@@ -1,0 +1,29 @@
+name: 女巫呯
+type: WITCH
+abilities:
+- set-generic-spawn
+- set-summon-dragonfireball-1
+- set-generic-mage-t1-1
+- set-summon-effect-saturation
+nbttags: ''
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 100
+  levels:
+  - 2-12
+  worlds:
+  - inf
+  biomes:
+  - SWAMP
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 30.0
+    list:
+    - generic-nyaacoin-1:20
+    - mob-special-ping-1:80
+  expOverride: -1

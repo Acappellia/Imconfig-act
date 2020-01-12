@@ -1,0 +1,14 @@
+level: 3
+prefix: '&fα T1'
+attr:
+  __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelAttr
+  health: 200.0
+  damage: 7.0
+  damageResist: 0.0
+  exp: 20
+  aggro: 50.0
+spawnConfig:
+  __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelSpawnConfig
+  from: 430
+  to: 6000
+  weight: 3

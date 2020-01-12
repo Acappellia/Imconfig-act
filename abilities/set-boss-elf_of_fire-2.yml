@@ -1,0 +1,5 @@
+abilities:
+  Fire:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityFire
+    duration: 60
+weight: 15

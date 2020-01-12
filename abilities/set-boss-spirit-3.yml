@@ -1,0 +1,10 @@
+abilities:
+  TeleportToPlayer:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityTeleportToPlayer
+    radius: 5.0
+    range: 5.0
+  Bleeding:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityBleeding
+    duration: 60
+    damage: 5.0
+weight: 10

@@ -1,0 +1,30 @@
+abilities:
+  SkillEffect:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySkillEffect
+    particle:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: CRIT
+      delta:
+      - 0.2
+      - 0.5
+      - 0.2
+      speed: 1.0
+      amount: 100
+      extraData: ''
+      forced: false
+    particleEnabled: true
+    soundEnabled: true
+    sound: ENTITY_SHULKER_SHOOT
+    pitch: 0.7
+    volume: 1.0
+  Projectile:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityProjectile
+    range: 12
+    speed: 0.5
+    projectile: ShulkerBullet
+    cone: 2.0
+    gravity: false
+    burstCount: 2
+    burstInterval: 15
+    damageAmplifier: 1.0
+weight: 5

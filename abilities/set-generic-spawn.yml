@@ -1,0 +1,20 @@
+abilities:
+  SpawnEffect:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilitySpawnEffect
+    particle:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: FLAME
+      delta:
+      - 0.0
+      - 0.0
+      - 0.0
+      speed: 0.1
+      amount: 500
+      extraData: ''
+      forced: false
+    particleEnabled: true
+    soundEnabled: true
+    sound: ENTITY_BLAZE_SHOOT
+    pitch: 0.5
+    volume: 1.0
+weight: 5

@@ -1,0 +1,8 @@
+abilities:
+  AoePotion:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityAoePotion
+    effect: SLOW
+    duration: 60
+    amplifier: 9
+    radius: 48.0
+weight: 10

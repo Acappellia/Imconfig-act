@@ -1,0 +1,12 @@
+abilities:
+  Explode:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityExplode
+    power: 12.0
+  Stuck:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityStuck
+    duration: 60
+  TeleportToPlayer:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityTeleportToPlayer
+    radius: 5.0
+    range: 32.0
+weight: 5

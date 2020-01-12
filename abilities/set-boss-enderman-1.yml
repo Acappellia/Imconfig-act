@@ -1,0 +1,24 @@
+abilities:
+  Meteor:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityMeteor
+    delay: 0
+    amount: 12
+    power: 12.5
+  ParticleShield:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityParticleShield
+    particleConfig:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: PORTAL
+      delta:
+      - 1.0
+      - 1.0
+      - 1.0
+      speed: 1.0
+      amount: 10
+      extraData: ''
+      forced: false
+    duration: 60
+    resistance: 90.0
+    thornsPercentage: 60.0
+    delay: 20
+weight: 10

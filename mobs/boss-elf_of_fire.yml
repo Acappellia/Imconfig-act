@@ -1,0 +1,28 @@
+name: 火之精灵
+type: BLAZE
+abilities:
+- set-boss-elf_of_fire-1
+- set-boss-elf_of_fire-2
+- set-boss-elf_of_fire-3
+- set-generic-immunity-blind
+nbttags: '{Health:2400f,Tags:["elf_of_fire"],HandItems:[{id:"minecraft:blaze_powder",Count:1b,tag:{display:{Name:"{\"text\":\"精灵熔炉\",\"color\":\"yellow\"}"}}},{}],HandDropChances:[-327.67F,0.85F],Attributes:[{Name:generic.maxHealth,Base:2400},{Name:generic.followRange,Base:50},{Name:generic.knockbackResistance,Base:1},{Name:generic.attackDamage,Base:30}]}'
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: false
+  weight: 100
+  levels:
+  - '3'
+  worlds:
+  - inf
+  biomes: []
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: false
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 100.0
+    list:
+    - boss_special_elf_of_fire_seed:80
+    - boss_special_elf_of_fire_egg:20
+  expOverride: -1

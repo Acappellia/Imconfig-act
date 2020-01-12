@@ -1,0 +1,66 @@
+name: 骷髅狙击手
+type: SKELETON
+abilities:
+- set-generic-spawn
+- set-generic-sniper-1
+nbttags: '{HandItems:[{id:"minecraft:iron_shovel",Count:1b,tag:{display:{Name:"{\"text\":\"龙骨狙击枪\",\"color\":\"yellow\"}"}}},{}],HandDropChances:[-327.67F,0.85F],ArmorItems:[{id:"minecraft:iron_boots",Count:1b},{id:"minecraft:iron_leggings",Count:1b},{id:"minecraft:iron_chestplate",Count:1b},{id:"minecraft:iron_helmet",Count:1b}],ArmorDropChances:[-327.67F,-327.67F,-327.67F,-327.67F]}'
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 50
+  levels:
+  - 8-12
+  worlds:
+  - inf
+  biomes:
+  - BADLANDS
+  - BADLANDS_PLATEAU
+  - BEACH
+  - BIRCH_FOREST
+  - BIRCH_FOREST_HILLS
+  - COLD_OCEAN
+  - DARK_FOREST
+  - DEEP_COLD_OCEAN
+  - DEEP_FROZEN_OCEAN
+  - DEEP_LUKEWARM_OCEAN
+  - DESERT
+  - DESERT_HILLS
+  - FOREST
+  - FROZEN_RIVER
+  - GIANT_TREE_TAIGA
+  - GIANT_TREE_TAIGA_HILLS
+  - JUNGLE
+  - JUNGLE_EDGE
+  - JUNGLE_HILLS
+  - LUKEWARM_OCEAN
+  - MOUNTAINS
+  - MUSHROOM_FIELD_SHORE
+  - MUSHROOM_FIELDS
+  - PLAINS
+  - RIVER
+  - SAVANNA
+  - SAVANNA_PLATEAU
+  - SNOWY_BEACH
+  - SNOWY_MOUNTAINS
+  - SNOWY_TAIGA
+  - SNOWY_TAIGA_HILLS
+  - SNOWY_TUNDRA
+  - STONE_SHORE
+  - SWAMP
+  - TAIGA
+  - TAIGA_HILLS
+  - WARM_OCEAN
+  - WOODED_BADLANDS_PLATEAU
+  - WOODED_HILLS
+  - WOODED_MOUNTAINS
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 4.0
+    list:
+    - generic-nyaacoin-1:95
+    - boss_summon_enderman:5
+  expOverride: -1

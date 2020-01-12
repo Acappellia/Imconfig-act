@@ -1,0 +1,14 @@
+level: 13
+prefix: '&cζ T5'
+attr:
+  __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelAttr
+  health: 3850.0
+  damage: 93.0
+  damageResist: 0.0
+  exp: 255
+  aggro: 100.0
+spawnConfig:
+  __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelSpawnConfig
+  from: 5000
+  to: 6000
+  weight: 13

@@ -1,0 +1,7 @@
+abilities:
+  Meteor:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityMeteor
+    delay: 0
+    amount: 10
+    power: 12.0
+weight: 10

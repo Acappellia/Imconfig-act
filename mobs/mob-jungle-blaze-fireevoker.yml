@@ -1,0 +1,32 @@
+name: 燃烧的恐惧
+type: BLAZE
+abilities:
+- set-generic-spawn
+- set-mob-blaze-fireevoker-1
+- set-mob-blaze-fireevoker-2
+- set-generic-nirvana-1
+nbttags: ''
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 40
+  levels:
+  - 11-12
+  worlds:
+  - inf
+  biomes:
+  - JUNGLE
+  - JUNGLE_EDGE
+  - JUNGLE_HILLS
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 30.0
+    list:
+    - generic-nyaacoin-1:20
+    - mob-special-fireevoker-1:70
+    - boss_summon_vortex_rifleman:10
+  expOverride: -1

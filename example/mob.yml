@@ -1,0 +1,103 @@
+name: Zombie-King
+id: mob-0
+type: ZOMBIE
+abilities:
+- set-0
+- set-1
+- set-2
+nbttags: ''
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 100
+  levels:
+  - 1-3
+  - '5'
+  worlds:
+  - world
+  - world_nether
+  - world_the_end
+  biomes:
+  - OCEAN
+  - PLAINS
+  - DESERT
+  - MOUNTAINS
+  - FOREST
+  - TAIGA
+  - SWAMP
+  - RIVER
+  - NETHER
+  - THE_END
+  - FROZEN_OCEAN
+  - FROZEN_RIVER
+  - SNOWY_TUNDRA
+  - SNOWY_MOUNTAINS
+  - MUSHROOM_FIELDS
+  - MUSHROOM_FIELD_SHORE
+  - BEACH
+  - DESERT_HILLS
+  - WOODED_HILLS
+  - TAIGA_HILLS
+  - MOUNTAIN_EDGE
+  - JUNGLE
+  - JUNGLE_HILLS
+  - JUNGLE_EDGE
+  - DEEP_OCEAN
+  - STONE_SHORE
+  - SNOWY_BEACH
+  - BIRCH_FOREST
+  - BIRCH_FOREST_HILLS
+  - DARK_FOREST
+  - SNOWY_TAIGA
+  - SNOWY_TAIGA_HILLS
+  - GIANT_TREE_TAIGA
+  - GIANT_TREE_TAIGA_HILLS
+  - WOODED_MOUNTAINS
+  - SAVANNA
+  - SAVANNA_PLATEAU
+  - BADLANDS
+  - WOODED_BADLANDS_PLATEAU
+  - BADLANDS_PLATEAU
+  - SMALL_END_ISLANDS
+  - END_MIDLANDS
+  - END_HIGHLANDS
+  - END_BARRENS
+  - WARM_OCEAN
+  - LUKEWARM_OCEAN
+  - COLD_OCEAN
+  - DEEP_WARM_OCEAN
+  - DEEP_LUKEWARM_OCEAN
+  - DEEP_COLD_OCEAN
+  - DEEP_FROZEN_OCEAN
+  - THE_VOID
+  - SUNFLOWER_PLAINS
+  - DESERT_LAKES
+  - GRAVELLY_MOUNTAINS
+  - FLOWER_FOREST
+  - TAIGA_MOUNTAINS
+  - SWAMP_HILLS
+  - ICE_SPIKES
+  - MODIFIED_JUNGLE
+  - MODIFIED_JUNGLE_EDGE
+  - TALL_BIRCH_FOREST
+  - TALL_BIRCH_HILLS
+  - DARK_FOREST_HILLS
+  - SNOWY_TAIGA_MOUNTAINS
+  - GIANT_SPRUCE_TAIGA
+  - GIANT_SPRUCE_TAIGA_HILLS
+  - MODIFIED_GRAVELLY_MOUNTAINS
+  - SHATTERED_SAVANNA
+  - SHATTERED_SAVANNA_PLATEAU
+  - ERODED_BADLANDS
+  - MODIFIED_WOODED_BADLANDS_PLATEAU
+  - MODIFIED_BADLANDS_PLATEAU
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 20.0
+    list:
+    - inf-extra-sample:10
+  expOverride: -1

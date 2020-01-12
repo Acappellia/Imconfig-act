@@ -1,0 +1,31 @@
+name: 复生的木乃伊
+type: ZOMBIE
+abilities:
+- set-generic-spawn
+- set-potionself-damage-2
+- set-generic-dummy-1
+nbttags: ''
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 100
+  levels:
+  - 5-8
+  worlds:
+  - inf
+  biomes:
+  - DESERT
+  - DESERT_HILLS
+  - SAVANNA
+  - SAVANNA_PLATEAU
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 70.0
+    list:
+    - generic-nyaacoin-1:20
+    - mob-special-mummy-1:80
+  expOverride: -1

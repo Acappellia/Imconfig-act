@@ -1,0 +1,35 @@
+name: 尖刺龙鱼
+type: ELDER_GUARDIAN
+abilities:
+- set-generic-spawn
+- set-generic-underwater-beam-3
+- set-generic-underwater-beam-1
+- set-generic-thorns-3
+nbttags: ''
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 100
+  levels:
+  - 6-12
+  worlds:
+  - inf
+  biomes:
+  - DEEP_COLD_OCEAN
+  - DEEP_FROZEN_OCEAN
+  - DEEP_LUKEWARM_OCEAN
+  - OCEAN
+  - COLD_OCEAN
+  - LUKEWARM_OCEAN
+  - WARM_OCEAN
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 30.0
+    list:
+    - generic-nyaacoin-1:20
+    - mob-special-spikedragon-1:80
+  expOverride: -1

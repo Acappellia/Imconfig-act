@@ -1,0 +1,14 @@
+level: 4
+prefix: '&bβ T2'
+attr:
+  __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelAttr
+  health: 350.0
+  damage: 11.0
+  damageResist: 0.0
+  exp: 30
+  aggro: 55.0
+spawnConfig:
+  __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelSpawnConfig
+  from: 595
+  to: 6000
+  weight: 4

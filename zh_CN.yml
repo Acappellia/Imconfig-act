@@ -1,0 +1,56 @@
+loot:
+  add:
+    error:
+      exists: '物品id: %s 已被应用于"{itemName} §r* {amount}", 添加失败'
+      no_item: 主手没有物品
+    success: '物品 {itemName} §r* {amount}, id: %s, 动态几率: %b, 添加成功'
+  get:
+    no_item: 没有名为"%s"的物品
+    success: 成功给予 {itemName} §r* {amount}
+  set:
+    no_item: 没有名为"%s"的物品
+    success: 成功设置 {itemName} §r* {amount} 在等级 %d 掉落， 权重： %d
+manual:
+  no_description: No description
+  no_usage: No usage
+friendly_fire:
+  hint: §c请勿攻击队友！你将受到惩罚！
+  lv3: §4你因攻击队友而受到了惩罚！！！
+  lv2: §4你因攻击队友而受到了惩罚！！
+  lv1: §4你因攻击队友而受到了惩罚！
+inspect:
+  level:
+    no_level: 等级 %d 不存在或无掉落
+    info: '{itemName} §r* {amount}, 权重 %d, 动态掉落: %b'
+    success: 查询成功
+  error:
+    invalid_action: 未知命令 %s
+  item:
+    success: '{itemName} * {amount}, 权重 %d, 动态掉落: %b'
+    no_item: 没有名为"%s"的物品
+imi:
+  state_off: §a不接收任何击杀广播
+  state_all: §a将接收全部击杀广播
+  state_self: §a仅接收自己的击杀广播
+  state_near: §a将接收附近的击杀广播
+error:
+  not_player: 只有玩家才能执行该命令
+  wrong_argument: §c参数错误
+  custom_mob:
+    no_loot: 没有掉落物品"%s"
+    mob:
+      spawn_no_id: 没有id为 %s 的生物
+      bad_config: 错误配置文件 %s
+      num_format: 数字格式错误 %s
+  permission: §4你没有权限执行该操作
+killall:
+  success: 成功清理了 %d 只黑化怪
+  error:
+    unknown_world: 未知世界 %s
+message:
+  error:
+    special_drop: 没有特殊掉落提示信息，请联系管理员
+    drop: 没有掉落提示信息，请联系管理员
+  stuck: §6你被定身了，不能移动或传送
+damage:
+  mob_hurt: §6命中 §c§l-%%.2f

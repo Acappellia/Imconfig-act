@@ -1,0 +1,38 @@
+name: 灵液怪
+type: VEX
+abilities:
+- set-generic-spawn
+- set-generic-mage-t1-3
+- set-potionhit-damageresistance-1
+nbttags: ''
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 15
+  levels:
+  - 4-10
+  worlds:
+  - inf
+  biomes:
+  - BIRCH_FOREST
+  - BIRCH_FOREST_HILLS
+  - DARK_FOREST
+  - FOREST
+  - GIANT_TREE_TAIGA
+  - GIANT_TREE_TAIGA_HILLS
+  - SNOWY_TAIGA
+  - SNOWY_TAIGA_HILLS
+  - TAIGA
+  - TAIGA_HILLS
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 30.0
+    list:
+    - generic-nyaacoin-1:20
+    - mob-special-vexichor-1:70
+    - boss_summon_spirit:10
+  expOverride: -1

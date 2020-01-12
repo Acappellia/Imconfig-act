@@ -1,0 +1,7 @@
+abilities:
+  PotionHit:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityPotionHit
+    effect: BLINDNESS
+    duration: 60
+    amplifier: 1
+weight: 5

@@ -1,0 +1,24 @@
+abilities:
+  SkillEffect:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySkillEffect
+    particle:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: CRIT
+      delta:
+      - 0.2
+      - 0.5
+      - 0.2
+      speed: 0.0
+      amount: 100
+      extraData: ''
+      forced: false
+    particleEnabled: false
+    soundEnabled: true
+    sound: BLOCK_BUBBLE_COLUMN_WHIRLPOOL_INSIDE
+    pitch: 0.5
+    volume: 1.0
+  Clone:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityClone
+    amount: 1
+    cloneTimes: 2
+weight: 5

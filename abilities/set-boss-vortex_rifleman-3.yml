@@ -1,0 +1,26 @@
+abilities:
+  Beam:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityBeam
+    length: 72
+    particle:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: END_ROD
+      delta:
+      - 0.0
+      - 0.0
+      - 0.0
+      speed: 0.05
+      amount: 10
+      extraData: ''
+      forced: false
+    speed: 36.0
+    spawnsPerBlock: 10.0
+    cone: 1.0
+    pierce: true
+    ignoreWall: true
+    range: 72.0
+    damageMultiplier: 1.0
+    burst: 1
+    burstInterval: 10
+    aimAtTarget: true
+weight: 5

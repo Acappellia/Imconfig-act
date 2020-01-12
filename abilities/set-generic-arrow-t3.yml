@@ -1,0 +1,30 @@
+abilities:
+  SkillEffect:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySkillEffect
+    particle:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: CRIT
+      delta:
+      - 0.2
+      - 0.5
+      - 0.2
+      speed: 1.0
+      amount: 100
+      extraData: ''
+      forced: false
+    particleEnabled: true
+    soundEnabled: true
+    sound: BLOCK_NOTE_BLOCK_HAT
+    pitch: 0.5
+    volume: 1.0
+  Projectile:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityProjectile
+    range: 48
+    speed: 1.2
+    projectile: Arrow
+    cone: 1.0
+    gravity: true
+    burstCount: 3
+    burstInterval: 5
+    damageAmplifier: 0.5
+weight: 5

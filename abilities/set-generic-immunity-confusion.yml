@@ -1,0 +1,6 @@
+abilities:
+  Immunity:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityImmunity
+    effects:
+    - CONFUSION
+weight: 5

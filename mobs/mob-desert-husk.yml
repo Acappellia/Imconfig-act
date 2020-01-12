@@ -1,0 +1,29 @@
+name: 魂壳
+type: HUSK
+abilities:
+- set-generic-spawn
+- set-potionhit-saturation-1
+nbttags: ''
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 100
+  levels:
+  - 1-6
+  worlds:
+  - inf
+  - newbie
+  biomes:
+  - DESERT
+  - DESERT_HILLS
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 30.0
+    list:
+    - generic-nyaacoin-1:20
+    - mob-special-deserthusk-1:80
+  expOverride: -1

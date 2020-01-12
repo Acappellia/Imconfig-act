@@ -1,0 +1,31 @@
+abilities:
+  Beam:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityBeam
+    length: 64
+    particle:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: REDSTONE
+      delta:
+      - 0.0
+      - 0.0
+      - 0.0
+      speed: 0.0
+      amount: 1
+      extraData: 204,0,51,0.5
+      forced: false
+    speed: 64.0
+    spawnsPerBlock: 10.0
+    cone: 4.0
+    pierce: true
+    ignoreWall: true
+    range: 64.0
+    damageMultiplier: 0.4
+    burst: 30
+    burstInterval: 2
+    aimAtTarget: true
+  PotionHit:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityPotionHit
+    effect: BLINDNESS
+    duration: 60
+    amplifier: 1
+weight: 10

@@ -1,0 +1,4 @@
+abilities:
+  dummy:
+    __class__: cat.nyaa.infiniteinfernal.ability.AbilityDummy
+weight: 5

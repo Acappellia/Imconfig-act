@@ -1,0 +1,29 @@
+name: 装甲幽魂
+type: HUSK
+abilities:
+- set-generic-spawn
+- set-generic-mage-t1-1
+- set-generic-smallfireball-t1
+nbttags: '{HandItems:[{id:"minecraft:diamond_pickaxe",Count:1b,tag:{display:{Name:"{\"text\":\"幽灵法杖\",\"color\":\"white\"}"}}},{}],HandDropChances:[-327.67F,0.85F],ArmorItems:[{id:"minecraft:diamond_boots",Count:1b},{id:"minecraft:diamond_leggings",Count:1b},{id:"minecraft:diamond_chestplate",Count:1b},{id:"minecraft:diamond_helmet",Count:1b}],ArmorDropChances:[-327.67F,-327.67F,-327.67F,-327.67F]}'
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 100
+  levels:
+  - 7-12
+  worlds:
+  - inf
+  biomes:
+  - DESERT
+  - DESERT_HILLS
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 30.0
+    list:
+    - generic-nyaacoin-1:20
+    - mob-special-deserthuskghost-1:80
+  expOverride: -1

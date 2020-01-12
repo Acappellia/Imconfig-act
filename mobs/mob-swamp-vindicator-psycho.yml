@@ -1,0 +1,28 @@
+name: 变态卷
+type: VINDICATOR
+abilities:
+- set-generic-spawn
+- set-potionself-invisibility-1
+- set-potionself-strength-3
+nbttags: '{HandItems:[{id:"minecraft:diamond_axe",Count:1b,tag:{display:{Name:"{\"text\":\"变态刀\",\"color\":\"gray\"}"}}},{}],HandDropChances:[-327.67F,0.85F]}'
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 30
+  levels:
+  - 6-12
+  worlds:
+  - inf
+  biomes:
+  - SWAMP
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 30.0
+    list:
+    - generic-nyaacoin-1:20
+    - mob-special-psycho-1:80
+  expOverride: -1

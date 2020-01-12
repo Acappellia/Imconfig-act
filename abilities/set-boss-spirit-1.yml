@@ -1,0 +1,31 @@
+abilities:
+  Beam:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityBeam
+    length: 48
+    particle:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: FIREWORKS_SPARK
+      delta:
+      - 0.0
+      - 0.0
+      - 0.0
+      speed: 0.02
+      amount: 5
+      extraData: ''
+      forced: false
+    speed: 24.0
+    spawnsPerBlock: 4.0
+    cone: 2.0
+    pierce: true
+    ignoreWall: true
+    range: 40.0
+    damageMultiplier: 1.0
+    burst: 1
+    burstInterval: 2
+    aimAtTarget: true
+  Shingeki:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityShingeki
+    amount: 9
+    delay: 60
+    damageAmplifier: 2.0
+weight: 10

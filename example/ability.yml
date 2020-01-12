@@ -1,0 +1,212 @@
+abilities:
+  Immunity:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityImmunity
+    effects:
+    - CONFUSION
+    - BLINDNESS
+  Shingeki:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityShingeki
+    amount: 5
+    delay: 10
+    damageAmplifier: 2.0
+  ThrowPlayer:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityThrowPlayer
+    tickChance: 0.1
+    attackChance: 0.2
+    speed: 1.0
+    duration: 10
+  AoePotion:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityAoePotion
+    effect: SLOW
+    duration: 10
+    amplifier: 1
+    radius: 25.0
+  ClearEffect:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityClearEffect
+    tickChance: 0.5
+    attackChance: 0.5
+    duration: 60
+    effects: []
+  TeleportToPlayer:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityTeleportToPlayer
+    radius: 5.0
+    range: 5.0
+  Meteor:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityMeteor
+    delay: 0
+    amount: 10
+    power: 1.0
+  Summon:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySummon
+    nbt: ''
+    amount: 2
+    radius: 0.0
+    type: ZOMBIE
+  ParticleShield:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityParticleShield
+    particleConfig:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: FIREWORKS_SPARK
+      delta:
+      - 0.0
+      - 0.0
+      - 0.0
+      speed: 0.0
+      amount: 500
+      extraData: ''
+      forced: false
+    duration: 60
+    resistance: 20.0
+    thornsPercentage: 10.0
+  PotionSelf:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityPotionSelf
+    effect: SPEED
+    duration: 1
+    amplifier: 1
+  Teleport:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityTeleport
+    radius: 5.0
+    range: 5.0
+  Bleeding:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityBleeding
+    duration: 60
+    damage: 1.0
+  Projectile:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityProjectile
+    range: 30
+    perCycleChance: 0.5
+    onPlayerAttackChance: 1.0
+    speed: 1.0
+    projectile: Arrow
+    cone: 0.0
+    gravity: true
+    burstCount: 1
+    burstInterval: 10
+    damageAmplifier: 1.0
+  Beam:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityBeam
+    length: 10
+    particle:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: FIREWORKS_SPARK
+      delta:
+      - 0.0
+      - 0.0
+      - 0.0
+      speed: 0.0
+      amount: 1
+      extraData: '255,255,255,0.5'
+      forced: false
+    speed: 3.0
+    spawnsPerBlock: 2.0
+    cone: 0.0
+    pierce: false
+    ignoreWall: false
+    range: 40.0
+    damageMultiplier: 1.0
+    burst: 1
+    burstInterval: 10
+  Stuck:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityStuck
+    duration: 60
+  UltraStrike:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityUltraStrike
+    amount: 5
+    explodeRange: 3
+    nearbyRange: 30
+    damageMultiplier: 20.0
+    delay: 60
+  Throw:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityThrow
+    entityData: ''
+    entityName: ''
+    speed: 3.0
+  SkillEffect:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySkillEffect
+    particle:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: FIREWORKS_SPARK
+      delta:
+        - 0.0
+        - 0.0
+        - 0.0
+      speed: 0.0
+      amount: 500
+      extraData: ''
+      forced: false
+    particleEnabled: true
+    soundEnabled: true
+    sound: ENTITY_ELDER_GUARDIAN_CURSE
+    pitch: 0.5
+    volume: 1.0
+  Fire:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityFire
+    duration: 60
+  LifeSteal:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityLifesteal
+    suck: 10.0
+    gain: 10.0
+  SummonOnPlayer:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySummonOnPlayer
+    nbt: ''
+    amount: 2
+    radius: 10.0
+    type: ZOMBIE
+  Clone:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityClone
+    amount: 1
+  Resistance:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityResistance
+    percentile: 0.0
+  Explode:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityExplode
+    power: 1.0
+  PotionHurt:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityPotionHurt
+    effect: HARM
+    duration: 1
+    amplifier: 1
+  PotionHit:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityPotionHit
+    effect: HARM
+    duration: 1
+    amplifier: 1
+  Nirvana:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityNirvana
+    lives: 1
+  SpawnEffect:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilitySpawnEffect
+    particle:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: FIREWORKS_SPARK
+      delta:
+      - 0.0
+      - 0.0
+      - 0.0
+      speed: 0.0
+      amount: 500
+      extraData: ''
+      forced: false
+    particleEnabled: true
+    soundEnabled: true
+    sound: ENTITY_ELDER_GUARDIAN_CURSE
+    pitch: 0.5
+    volume: 1.0
+  Armor:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityArmor
+    head: ''
+    chest: ''
+    leg: ''
+    feet: ''
+    mainHand: ''
+    offhand: ''
+  Thorn:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityThorns
+    percentile: 10.0
+  Passenger:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityPassenger
+    passengerType: ZOMBIE
+    passengerNbt: ''
+  dummy:
+    __class__: cat.nyaa.infiniteinfernal.ability.AbilityDummy
+weight: 10

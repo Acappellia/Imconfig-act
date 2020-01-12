@@ -1,0 +1,14 @@
+level: 12
+prefix: '&cε T5'
+attr:
+  __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelAttr
+  health: 3250.0
+  damage: 80.0
+  damageResist: 0.0
+  exp: 215
+  aggro: 95.0
+spawnConfig:
+  __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelSpawnConfig
+  from: 1915
+  to: 6000
+  weight: 12

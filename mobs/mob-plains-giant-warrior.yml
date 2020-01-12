@@ -1,0 +1,28 @@
+name: 巨神兵
+type: GIANT
+abilities:
+- set-generic-spawn
+- set-mob-giant-warrior-1
+- set-mob-giant-warrior-2
+nbttags: '{Health:7500f,HandItems:[{id:"minecraft:trident",Count:1b,tag:{display:{Name:"{\"text\":\"巨神兵枪\",\"color\":\"dark_red\"}"}}},{}],HandDropChances:[-327.67F,0.85F],Attributes:[{Name:generic.maxHealth,Base:7500}]}'
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 50
+  levels:
+  - '12'
+  worlds:
+  - inf
+  biomes:
+  - PLAINS
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 30.0
+    list:
+    - generic-nyaacoin-1:20
+    - mob-special-giantwarrior-1:80
+  expOverride: -1

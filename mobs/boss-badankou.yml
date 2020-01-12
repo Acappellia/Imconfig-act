@@ -1,0 +1,33 @@
+name: BadAnkou
+type: RABBIT
+abilities:
+- set-boss-badankou-1
+- set-boss-badankou-2
+- set-boss-badankou-3
+- set-boss-badankou-4
+- set-generic-shulkerbullet-fullcone
+- set-generic-immunity-blind
+- set-generic-immunity-confusion
+- set-generic-immunity-slowdigging
+nbttags: '{Health:24000f,Tags:["badankou"],RabbitType:99,Attributes:[{Name:generic.maxHealth,Base:24000},{Name:generic.followRange,Base:48},{Name:generic.knockbackResistance,Base:1},{Name:generic.movementSpeed,Base:0.4}]}'
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: false
+  weight: 100
+  levels:
+  - '16'
+  worlds:
+  - inf
+  biomes: []
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: false
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 100.0
+    list:
+    - generic-nyaacoin-1:35
+    - boss_special_apple_of_eden:15
+    - boss_special_davinci:50
+  expOverride: -1

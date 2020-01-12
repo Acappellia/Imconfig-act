@@ -1,0 +1,14 @@
+level: 10
+prefix: '&6δ T4'
+attr:
+  __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelAttr
+  health: 2200.0
+  damage: 57.0
+  damageResist: 0.0
+  exp: 150
+  aggro: 85.0
+spawnConfig:
+  __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelSpawnConfig
+  from: 1585
+  to: 6000
+  weight: 10

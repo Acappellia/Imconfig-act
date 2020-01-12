@@ -1,0 +1,25 @@
+name: 地狱火轰炸机
+type: GHAST
+abilities:
+- set-generic-spawn
+nbttags: '{Silent:1b}'
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: false
+  weight: 50
+  levels:
+  - 4-12
+  worlds:
+  - inf
+  biomes: []
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 30.0
+    list:
+    - generic-nyaacoin-1:20
+    - mob-special-ghast1-1:80
+  expOverride: -1

@@ -1,0 +1,25 @@
+name: 空洞魂魄
+type: HUSK
+abilities:
+- set-boss-husk-1
+- set-boss-husk-2
+nbttags: '{CustomNameVisible:1b,Health:1000f,Tags:["newbiehuskboss"],Attributes:[{Name:generic.maxHealth,Base:1000},{Name:generic.followRange,Base:50},{Name:generic.knockbackResistance,Base:1},{Name:generic.movementSpeed,Base:0.2}]}'
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: false
+  weight: 100
+  levels:
+  - '2'
+  worlds:
+  - newbie
+  biomes: []
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 100.0
+    list:
+    - boss_special_contract:100
+  expOverride: -1

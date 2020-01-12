@@ -1,0 +1,12 @@
+abilities:
+  Projectile:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityProjectile
+    range: 30
+    speed: 1.0
+    projectile: SmallFireball
+    cone: 30.0
+    gravity: true
+    burstCount: 10
+    burstInterval: 5
+    damageAmplifier: 1.0
+weight: 15

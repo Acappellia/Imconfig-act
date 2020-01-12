@@ -1,0 +1,14 @@
+level: 7
+prefix: '&dγ T3'
+attr:
+  __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelAttr
+  health: 1050.0
+  damage: 29.0
+  damageResist: 0.0
+  exp: 75
+  aggro: 70.0
+spawnConfig:
+  __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelSpawnConfig
+  from: 1090
+  to: 6000
+  weight: 7

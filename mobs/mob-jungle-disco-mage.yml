@@ -1,0 +1,30 @@
+name: 暗黑断术师
+type: EVOKER
+abilities:
+- set-generic-spawn
+- set-mob-disco-mage-1
+- set-mob-disco-mage-2
+nbttags: ''
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 50
+  levels:
+  - 10-12
+  worlds:
+  - inf
+  biomes:
+  - JUNGLE
+  - JUNGLE_EDGE
+  - JUNGLE_HILLS
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 30.0
+    list:
+    - generic-nyaacoin-1:20
+    - mob-special-discomage-1:80
+  expOverride: -1

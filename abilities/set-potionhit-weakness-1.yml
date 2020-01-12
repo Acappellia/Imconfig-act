@@ -1,0 +1,7 @@
+abilities:
+  PotionHit:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityPotionHit
+    effect: WEAKNESS
+    duration: 20
+    amplifier: 255
+weight: 5
