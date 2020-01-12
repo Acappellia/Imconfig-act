@@ -1,13 +1,13 @@
 playerKill:
-- '&b击杀 &f- &c{mob.name} &f( &e{player.name} &f- {player.item} )'
+- '&b击杀 &f: &c{mob.name} &f( &e{player.name} &f- {player.item} )'
 mobKill:
 - '{player.name} &4被&r {mob.name} &4四分五裂...'
 - '{mob.name} &4把 &r{player.name} &4送入了地狱'
 - '{player.name} &4被&r {mob.name} &4杀死了'
 - '{player.name} &4的脑袋和身体分家了， 凶手是 &r{mob.name}'
 drop:
-- '&e报酬 &f- &r{drop.item} &rx{drop.amount}'
+- '&e获得 &f: &eEXP、&r{drop.item} &rx{drop.amount}'
 specialDrop:
 - '&6额外掉落 &f- &r{drop.special} '
 noDrop:
-- '&7未获得报酬'
+- '&e获得 &f: &eEXP'

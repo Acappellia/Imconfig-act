@@ -72,7 +72,7 @@ worlds:
       inc: effect:GLOWING:10
     looting:
       __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$LootingConfig
-      global: 100
+      global: 50
       overall:
         __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$LootingConfig$LootingModifiers
         inc:
