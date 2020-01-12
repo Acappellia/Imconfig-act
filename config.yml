@@ -11,48 +11,6 @@ addEffects:
   dementia: effect:SLOW_DIGGING:10
   target_lost: effect:BLINDNESS:10
 worlds:
-  inf:
-    __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig
-    disable-natural-spawning: true
-    max-mob-per-player: 2
-    max-mob-in-world: 160
-    spawn-range-min: 8
-    spawn-range-max: 32
-    mob-active-interval: 60
-    aggro:
-      __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$AggroConfig
-      range:
-        __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$AggroConfig$RangeConfig
-        min: 4
-        max: 128
-      base: 48
-      dec: effect:INVISIBILITY:10
-      inc: effect:GLOWING:10
-    looting:
-      __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$LootingConfig
-      global: 85
-      overall:
-        __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$LootingConfig$LootingModifiers
-        inc:
-        - attribute:GENERIC_LUCK:10
-        - enchant:looting:2
-        dec:
-        - effect:UNLUCK:10
-      dynamic:
-        __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$LootingConfig$LootingModifiers
-        inc:
-        - attribute:GENERIC_LUCK:10
-        - enchant:LOOTING:3
-        dec:
-        - effect:UNLUCK:10
-    friendlyfire:
-      __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$FriendlyFireConfig
-      enable: false
-      effect: UNLUCK:9:600
-    broadcast:
-      __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$BroadcastConfig
-      default: NEARBY
-      range: 160
   nanospace:
     __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig
     disable-natural-spawning: true
