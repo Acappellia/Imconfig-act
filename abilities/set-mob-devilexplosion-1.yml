@@ -1,6 +1,0 @@
-abilities:
-  Passenger:
-    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityPassenger
-    passengerType: CREEPER
-    passengerNbt: '{Health:400f,ExplosionRadius:12b,Fuse:1,ActiveEffects:[{Id:14b,Amplifier:1b,Duration:1200,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:400},{Name:generic.movementSpeed,Base:0}]}'
-weight: 5

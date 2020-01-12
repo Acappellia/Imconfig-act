@@ -1,7 +1,0 @@
-abilities:
-  LifeSteal:
-    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityLifesteal
-    suck: 4.0
-    gain: 10.0
-    range: 14.0
-weight: 5

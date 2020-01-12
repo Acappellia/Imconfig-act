@@ -14,7 +14,7 @@ abilities:
       forced: false
     particleEnabled: true
     soundEnabled: true
-    sound: ENTITY_WITCH_DRINK
+    sound: ENTITY_SQUID_SQUIRT
     pitch: 1.2
     volume: 1.0
   PotionSelf:

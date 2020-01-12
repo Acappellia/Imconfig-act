@@ -1,8 +1,0 @@
-abilities:
-  AoePotion:
-    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityAoePotion
-    effect: LEVITATION
-    duration: 60
-    amplifier: 2
-    radius: 48.0
-weight: 10

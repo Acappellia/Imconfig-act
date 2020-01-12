@@ -3,7 +3,7 @@ abilities:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilitySpawnEffect
     particle:
       __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
-      type: FLAME
+      type: DRAGON_BREATH
       delta:
       - 0.0
       - 0.0

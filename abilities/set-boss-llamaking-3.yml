@@ -1,6 +1,0 @@
-abilities:
-  Bleeding:
-    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityBleeding
-    duration: 60
-    damage: 10.0
-weight: 10

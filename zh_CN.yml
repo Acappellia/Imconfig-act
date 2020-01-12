@@ -53,4 +53,4 @@ message:
     drop: 没有掉落提示信息，请联系管理员
   stuck: §6你被定身了，不能移动或传送
 damage:
-  mob_hurt: §6命中 §c§l-%%.2f
+  mob_hurt: §e§l-%%.2f

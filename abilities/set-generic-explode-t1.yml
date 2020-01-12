@@ -1,5 +1,0 @@
-abilities:
-  Explode:
-    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityExplode
-    power: 2.0
-weight: 5

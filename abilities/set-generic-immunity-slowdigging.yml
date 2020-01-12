@@ -1,6 +1,0 @@
-abilities:
-  Immunity:
-    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityImmunity
-    effects:
-    - SLOW_DIGGING
-weight: 5

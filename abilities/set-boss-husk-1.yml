@@ -1,6 +1,0 @@
-abilities:
-  Teleport:
-    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityTeleport
-    radius: 5.0
-    range: 5.0
-weight: 10
