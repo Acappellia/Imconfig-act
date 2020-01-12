@@ -33,12 +33,12 @@ worlds:
       global: 50
       overall:
         __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$LootingConfig$LootingModifiers
-        inc:
-        dec:
+        inc: []
+        dec: []
       dynamic:
         __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$LootingConfig$LootingModifiers
-        inc:
-        dec:
+        inc: []
+        dec: []
     friendlyfire:
       __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$FriendlyFireConfig
       enable: false
