@@ -3,7 +3,7 @@ type: SKELETON
 abilities:
 - set-generic-spawn
 - set-skeleton-shoot-1
-nbttags: '{HandItems:[{id:"minecraft:crossbow",Count:1b},{}],HandDropChances:[-327.67F,0.85F]}'
+nbttags: '{Attributes:[{Name:generic.movementSpeed,Base:0.1}],HandItems:[{id:"minecraft:crossbow",Count:1b},{}],HandDropChances:[-327.67F,0.85F]}'
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: true

@@ -11,7 +11,7 @@ abilities:
       - 0.0
       speed: 0.05
       amount: 1
-      extraData: 128,128,204,0.5
+      extraData: 
       forced: false
     speed: 72.0
     spawnsPerBlock: 10.0

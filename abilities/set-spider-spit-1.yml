@@ -13,7 +13,7 @@ abilities:
       amount: 1
       extraData: 64,255,64,1.0
       forced: false
-    speed: 8.0
+    speed: 20.0
     spawnsPerBlock: 8.0
     cone: 4.0
     pierce: false
