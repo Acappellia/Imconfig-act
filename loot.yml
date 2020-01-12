@@ -34,10 +34,25 @@ items:
     nbt: eJxjZGBg2MLMIJdXmZiYnF+UGp9ZkppbXJKYnB2fkliSWJZaVJyZn8fAwBbPwcCUmcIgnpuZl5pclJhWYpWWWZRanl+UHQ9UXsTIwOqcX5pXwsLFwFySmM7FwJ6SWVyQk1jJycDiAzSXA2gPI4PKoeVpT5fMerJj1dP5fS+ntj/Zu//5lBXPZ7W8bJgFZLzYsvzpjkYOBha/xNxUBqlqpZLUihIlK6VDy82f7Gh4Nq396ZLlLydtVKoFGgYAgOpI4g==
     name: generic-coin-4
     dynamic: false
+  generic-crystal2-1:
+    __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
+    nbt: eJxjZGBgeMDMIJdXmZiYnF+UGp9ZkppbXJKYnB2fkliSWJZaVJyZn8fAwLGZg4EpM4VBIDczLzW5KDGtxKqwNLGopIqRgdU5vzSvhJGLgbkkMZ2LgT0ls7ggJ7GSk4HFB2ggB9ACJgbTaqWS1IoSJSulQ8vNXyxveTZ1y/NZLc9mbnuyd/LTntYXi3c+n9vwdPuKp0uWA8VfNO992d6vVMuggKQt7fmUFU929T1du+zJzgXPuhqAipRqORhY/BJzUxmkkBRaPtmx9uWMbS/XTgGaDzSEgQEAhwxgkA==
+    name: generic-crystal2-1
+    dynamic: false
+  generic-crystal3-1:
+    __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
+    nbt: eJxjZGBgeMHMIJdXmZiYnF+UGp9ZkppbXJKYnB2fkliSWJZaVJyZn8fAwLGZg4EpM4VBNDczLzW5KDGtxCovtSQjtSgeqLiIkYHVOb80r4SRi4G5JDGdi4E9JbO4ICexkpOBxQdoKgfQFiYGi2qlktSKEiUrpUPLzZ9Pang+acXTJdNeLFzxZGf3kx1rn21tfLa95/nchqdLVj6f2gMUfL5p39PePqVaBgUknWnPp6x4sqvv6dplT3YueNbV8KJ5r1ItBwOLX2JuKoMUksKUJzu6Xs7Y9nLtlGcztwENYWAAALlzZO8=
+    name: generic-crystal3-1
+    dynamic: false
   generic-coin-1:
     __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
     nbt: eJxjZGBg2MLMIJdXmZiYnF+UGp9ZkppbXJKYnB2fkliSWJZaVJyZn8fAwBbPwcCUmcIgnpuZl5pclJhWYpWWWZRanl+UHQ9UXsTIwOqcX5pXwsjFwFySmM7FwJ6SWVyQk1jJycDiAzSXA2gPI4PKoeVpT5fMerJj1dP5fS+ntj/Zu//5lBXPZ7W8bJgFZLzYsvzpjkYOBha/xNxUBqlqpZLUihIlK6VDy82f7Gh4Nq396ZLlLydtVKoFGgYAf69I3w==
     name: generic-coin-1
+    dynamic: false
+  generic-crystal1-1:
+    __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
+    nbt: eJxjZGBg+MLMIJdXmZiYnF+UGp9ZkppbXJKYnB2fkliSWJZaVJyZn8fAwLGZg4EpM4VBNjczLzW5KDGtxKqgKLM4N7EIyI9PLqoE6skpZmRgdc4vzSth5GJgLklM52JgT8ksLshJrORkYPEBms4BtI2JwaZaqSS1okTJSunQcvOnG2Y9m7PqWceEp/O63+/pUXiyt+1F895nLfOf9k9/2rHhadfsl+39z2e1PNvW87RrhVItgwKS7rTnU1Y82dX3dO2yJzsXPOtqAOpUquVgYPFLzE1lkEJSmPRkR/fLGdterp3ybOY2oCEMDABaWWoj
+    name: generic-crystal1-1
     dynamic: false
   generic-coin-7:
     __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
