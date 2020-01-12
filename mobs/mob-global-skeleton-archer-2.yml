@@ -59,7 +59,8 @@ loot:
   imLoot: true
   special:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
-    chance: 20.0
+    chance: 30.0
     list:
     - generic-metal2-1:100
+    - generic-crystal2-1:50
   expOverride: -1
