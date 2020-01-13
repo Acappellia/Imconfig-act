@@ -1,13 +1,12 @@
-name: 幻影术师
-type: EVOKER
+name: 遗迹守卫者
+type: GUARDIAN
 abilities:
 - set-generic-spawn
-- set-generic-teleporttoplayer-1
-- set-mage-beam-1
+- set-fish-bubble-1
 nbttags: ''
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
-  autoSpawn: false
+  autoSpawn: true
   weight: 50
   levels:
   - 25-36
@@ -22,4 +21,5 @@ loot:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
     chance: 5.0
     list:
-    - special-mage-3
+    - special-archer-3:100
+  expOverride: -1

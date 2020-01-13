@@ -1,16 +1,15 @@
-name: 幻影术师
-type: EVOKER
+name: 雪蛤炮塔
+type: SHULKER
 abilities:
 - set-generic-spawn
-- set-generic-teleporttoplayer-1
-- set-mage-beam-1
+- set-shulker-shoot-1
 nbttags: ''
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false
   weight: 50
   levels:
-  - 25-36
+  - 13-24
   worlds:
   - nanospace
   biomes:
@@ -22,4 +21,5 @@ loot:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
     chance: 5.0
     list:
-    - special-mage-3
+    - special-archer-2:100
+  expOverride: -1

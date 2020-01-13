@@ -1,16 +1,15 @@
-name: 幻影术师
-type: EVOKER
+name: 骷髅机枪手
+type: WITHER_SKELETON
 abilities:
 - set-generic-spawn
-- set-generic-teleporttoplayer-1
-- set-mage-beam-1
-nbttags: ''
+- set-archer-shoot-1
+nbttags: '{Attributes:[{Name:generic.movementSpeed,Base:0.1}],HandItems:[{id:"minecraft:diamond_hoe",Count:1b},{}],HandDropChances:[-327.67F,0.85F]}'
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false
   weight: 50
   levels:
-  - 25-36
+  - 13-24
   worlds:
   - nanospace
   biomes:
@@ -22,4 +21,5 @@ loot:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
     chance: 5.0
     list:
-    - special-mage-3
+    - special-archer-2:100
+  expOverride: -1

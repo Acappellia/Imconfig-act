@@ -9,6 +9,6 @@ attr:
   aggro: 40.0
 spawnConfig:
   __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelSpawnConfig
-  from: 75
+  from: 90
   to: 6000
   weight: 2
