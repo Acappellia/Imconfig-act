@@ -2,7 +2,7 @@ name: 尖叫幽魂
 type: VEX
 abilities:
 - set-generic-spawn
-nbttags: ''
+nbttags: 'HandItems:[{},{}]'
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false

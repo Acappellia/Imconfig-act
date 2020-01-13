@@ -3,7 +3,7 @@ type: VILLAGER
 abilities:
 - set-generic-spawn
 - set-mage-dragonfireball-1
-nbttags: ''
+nbttags: '{Attributes:[{Name:generic.armor,Base:20}]}'
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false

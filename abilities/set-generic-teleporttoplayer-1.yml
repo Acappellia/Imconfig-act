@@ -1,7 +1,7 @@
 abilities:
   TeleportToPlayer:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityTeleportToPlayer
-    radius: 12.0
+    radius: 24.0
     range: 24.0
   SkillEffect:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySkillEffect

@@ -4,13 +4,13 @@ abilities:
     length: 48
     particle:
       __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
-      type: BUBBLE_POP
+      type: WATER_BUBBLE
       delta:
       - 3.0
       - 3.0
       - 3.0
       speed: 0.0
-      amount: 20
+      amount: 50
       extraData: ''
       forced: false
     speed: 2.0
