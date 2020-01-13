@@ -2,7 +2,7 @@ abilities:
   Summon:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySummon
     nbt: '{direction:[0.0,-1.0,0.0]}'
-    amount: 2
+    amount: 1
     radius: 32.0
     type: DRAGON_FIREBALL
   SkillEffect:
