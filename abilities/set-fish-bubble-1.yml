@@ -4,16 +4,16 @@ abilities:
     length: 48
     particle:
       __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
-      type: WATER_BUBBLE
-      deltaX: 3.0
-      deltaY: 3.0
-      deltaZ: 3.0
+      type: CAMPFIRE_COSY_SMOKE
+      deltaX: 2.0
+      deltaY: 2.0
+      deltaZ: 2.0
       speed: 0.0
-      amount: 50
+      amount: 10
       extraData: ''
       forced: false
     speed: 2.0
-    spawnsPerBlock: 10.0
+    spawnsPerBlock: 20.0
     cone: 0.0
     pierce: true
     ignoreWall: false
