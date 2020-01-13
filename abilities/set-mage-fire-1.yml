@@ -5,10 +5,9 @@ abilities:
     particle:
       __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
       type: FLAME
-      delta:
-      - 0.4
-      - 0.4
-      - 0.4
+      deltaX: 0.4
+      deltaY: 0.4
+      deltaZ: 0.4
       speed: 0.05
       amount: 10
       extraData: ''

@@ -2,7 +2,7 @@ name: 洞穴骷髅
 type: STRAY
 abilities:
 - set-generic-spawn
-nbttags: 'HandItems:[{},{}]'
+nbttags: HandItems:[{},{}]
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false
@@ -11,7 +11,7 @@ spawn:
   - 1-12
   worlds:
   - nanospace
-  biomes:
+  biomes: []
 loot:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
   vanilla: false

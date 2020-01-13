@@ -5,10 +5,9 @@ abilities:
     particle:
       __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
       type: WATER_BUBBLE
-      delta:
-      - 3.0
-      - 3.0
-      - 3.0
+      deltaX: 3.0
+      deltaY: 3.0
+      deltaZ: 3.0
       speed: 0.0
       amount: 50
       extraData: ''
@@ -28,10 +27,9 @@ abilities:
     particle:
       __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
       type: WATER_BUBBLE
-      delta:
-      - 1
-      - 1
-      - 1
+      deltaX: 1.0
+      deltaY: 1.0
+      deltaZ: 1.0
       speed: 0.0
       amount: 200
       extraData: ''

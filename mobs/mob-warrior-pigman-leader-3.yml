@@ -14,7 +14,7 @@ spawn:
   - 24-36
   worlds:
   - nanospace
-  biomes:
+  biomes: []
 loot:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
   vanilla: false
