@@ -1,16 +1,14 @@
-name: 猪人兵
-type: PIG_ZOMBIE
+name: 下级巫师
+type: WITCH
 abilities:
 - set-generic-spawn
-- set-aoe-slow-1
-- set-warrior-throw
-nbttags: '{Attributes:[{Name:generic.movementSpeed,Base:0.32}],HandItems:[{id:"minecraft:wooden_axe",Count:1b},{id:"minecraft:shield",Count:1b}],HandDropChances:[-327.67F,-327.67F],ArmorItems:[{},{},{},{id:"minecraft:golden_helmet",Count:1b}],ArmorDropChances:[0.85F,0.85F,0.85F,-327.67F]}'
+nbttags: ''
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false
   weight: 50
   levels:
-  - 24-36
+  - 1-12
   worlds:
   - nanospace
   biomes:
@@ -22,5 +20,5 @@ loot:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
     chance: 5.0
     list:
-    - special-warrior-3:100
+    - special-mage-1:100
   expOverride: -1

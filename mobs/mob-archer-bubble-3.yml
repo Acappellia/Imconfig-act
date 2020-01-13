@@ -6,7 +6,7 @@ abilities:
 nbttags: ''
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
-  autoSpawn: true
+  autoSpawn: false
   weight: 50
   levels:
   - 25-36
