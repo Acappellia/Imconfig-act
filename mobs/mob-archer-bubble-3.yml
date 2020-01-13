@@ -2,6 +2,8 @@ name: 遗迹守卫者
 type: GUARDIAN
 abilities:
 - set-generic-spawn
+- set-generic-dummy-1
+- set-generic-dummy-1
 - set-fish-bubble-1
 nbttags: ''
 spawn:

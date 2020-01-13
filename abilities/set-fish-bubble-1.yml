@@ -13,7 +13,7 @@ abilities:
       extraData: ''
       forced: false
     speed: 2.0
-    spawnsPerBlock: 20.0
+    spawnsPerBlock: 40.0
     cone: 0.0
     pierce: true
     ignoreWall: false
