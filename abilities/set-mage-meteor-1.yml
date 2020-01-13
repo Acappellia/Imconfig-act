@@ -1,0 +1,25 @@
+abilities:
+  Meteor:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityMeteor
+    delay: 0
+    amount: 10
+    power: 1.0
+  SkillEffect:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySkillEffect
+    particle:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: ENCHANTMENT_TABLE
+      delta:
+      - 0.2
+      - 0.5
+      - 0.2
+      speed: 0.1
+      amount: 100
+      extraData: ''
+      forced: false
+    particleEnabled: true
+    soundEnabled: true
+    sound: ENTITY_EVOKER_CAST_SPELL
+    pitch: 0.0
+    volume: 1.0
+weight: 5

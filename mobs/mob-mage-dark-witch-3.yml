@@ -1,13 +1,15 @@
-name: 僵尸士兵
-type: ZOMBIE
+name: 黑巫师
+type: WITCH
 abilities:
 - set-generic-spawn
-- set-potionhit-wither-1
-nbttags: '{Attributes:[{Name:generic.movementSpeed,Base:0.32}],HandItems:[{id:"minecraft:iron_sword",Count:1b,tag:{display:{Name:"{\"text\":\"亡灵战士巨剑\",\"color\":\"black\"}"}}},{}],HandDropChances:[-327.67F,0.85F],ArmorItems:[{id:"minecraft:iron_boots",Count:1b},{id:"minecraft:iron_leggings",Count:1b},{id:"minecraft:iron_chestplate",Count:1b},{id:"minecraft:iron_helmet",Count:1b}],ArmorDropChances:[-327.67F,-327.67F,-327.67F,-327.67F]}'
+- set-mage-meteor-1
+- set-mage-aoe-poision-1
+- set-aoe-blind-1
+nbttags: ''
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: true
-  weight: 40
+  weight: 50
   levels:
   - 25-40
   worlds:
@@ -59,8 +61,6 @@ loot:
   imLoot: true
   special:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
-    chance: 30.0
+    chance: 5.0
     list:
-    - generic-metal3-1:100
-    - generic-crystal3-1:50
-  expOverride: -1
+    - special-mage-3

@@ -1,0 +1,8 @@
+abilities:
+  ThrowPlayer:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityThrowPlayer
+    tickChance: 0.0
+    attackChance: 0.5
+    speed: 2.0
+    duration: 1
+weight: 5
