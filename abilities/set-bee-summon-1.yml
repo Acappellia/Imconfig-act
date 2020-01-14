@@ -1,25 +1,25 @@
 abilities:
-  AoePotion:
-    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityAoePotion
-    effect: BLINDNESS
-    duration: 40
-    amplifier: 1
-    radius: 24.0
+  Summon:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySummon
+    nbt: '{DeathLootTable:"",ActiveEffects:[{Id:11b,Amplifier:9b,Duration:200}]}'
+    amount: 1
+    radius: 2.0
+    type: BEE
   SkillEffect:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySkillEffect
     particle:
       __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
-      type: SPELL_WITCH
+      type: FLAME
       deltaX: 0.2
       deltaY: 0.5
       deltaZ: 0.2
-      speed: 1.0
+      speed: 0.1
       amount: 100
       extraData: ''
       forced: false
     particleEnabled: true
     soundEnabled: true
-    sound: ENTITY_SPLASH_POTION_BREAK
-    pitch: 0.5
+    sound: ENTITY_EVOKER_CAST_SPELL
+    pitch: 0.0
     volume: 1.0
 weight: 5

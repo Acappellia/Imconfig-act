@@ -1,17 +1,15 @@
-name: 猪人首领
-type: PIG_ZOMBIE
+name: 骷髅机枪手
+type: WITHER_SKELETON
 abilities:
 - set-generic-spawn
-- set-aoe-slow-1
-- set-generic-dummy-1
-- set-pigman-summon-1
-nbttags: '{Attributes:[{Name:generic.movementSpeed,Base:0.2}],HandItems:[{id:"minecraft:golden_axe",Count:1b},{id:"minecraft:shield",Count:1b}],HandDropChances:[-327.67F,-327.67F],ArmorItems:[{},{},{},{id:"minecraft:golden_helmet",Count:1b}],ArmorDropChances:[0.85F,0.85F,0.85F,-327.67F]}'
+- set-archer-shoot-1
+nbttags: '{Attributes:[{Name:generic.movementSpeed,Base:0.1}],HandItems:[{id:"minecraft:diamond_hoe",Count:1b},{}],HandDropChances:[-327.67F,0.85F]}'
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false
   weight: 50
   levels:
-  - 24-36
+  - 13-24
   worlds:
   - nanospace
   biomes: []
@@ -23,5 +21,5 @@ loot:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
     chance: 5.0
     list:
-    - special-warrior-3:100
+    - special-warrior-2:100
   expOverride: -1

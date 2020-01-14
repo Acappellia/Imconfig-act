@@ -1,15 +1,16 @@
-name: 龙炎法师
-type: VILLAGER
+name: 寒霜傀儡
+type: IRON_GOLEM
 abilities:
 - set-generic-spawn
-- set-mage-dragonfireball-1
-nbttags: '{ActiveEffects:[{Id:11b,Amplifier:9b,Duration:200}],Attributes:[{Name:generic.armor,Base:20}]}'
+- set-potionhit-damageresistance-1
+- set-golem-frost-beam-1
+nbttags: '{Attributes:[{Name:generic.movementSpeed,Base:0.3}]}'
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false
-  weight: 50
+  weight: 100
   levels:
-  - 1-12
+  - 25-36
   worlds:
   - nanospace
   biomes: []
@@ -21,5 +22,5 @@ loot:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
     chance: 5.0
     list:
-    - special-mage-1:100
+    - special-warrior-3:100
   expOverride: -1

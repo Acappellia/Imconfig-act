@@ -5,15 +5,15 @@ abilities:
     particle:
       __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
       type: CAMPFIRE_COSY_SMOKE
-      deltaX: 2.0
-      deltaY: 2.0
-      deltaZ: 2.0
+      deltaX: 1.0
+      deltaY: 1.0
+      deltaZ: 1.0
       speed: 0.0
       amount: 10
       extraData: ''
       forced: false
     speed: 2.0
-    spawnsPerBlock: 40.0
+    spawnsPerBlock: 10.0
     cone: 0.0
     pierce: true
     ignoreWall: false

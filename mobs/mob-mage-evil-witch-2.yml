@@ -1,15 +1,17 @@
-name: 龙炎法师
-type: VILLAGER
+name: 巫毒药剂师
+type: WITCH
 abilities:
 - set-generic-spawn
-- set-mage-dragonfireball-1
-nbttags: '{ActiveEffects:[{Id:11b,Amplifier:9b,Duration:200}],Attributes:[{Name:generic.armor,Base:20}]}'
+- set-summon-effect-poison
+- set-summon-effect-wither
+- set-mage-beam-1
+nbttags: ''
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false
   weight: 50
   levels:
-  - 1-12
+  - 13-24
   worlds:
   - nanospace
   biomes: []
@@ -21,5 +23,5 @@ loot:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
     chance: 5.0
     list:
-    - special-mage-1:100
+    - special-mage-2:100
   expOverride: -1

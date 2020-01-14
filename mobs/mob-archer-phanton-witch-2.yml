@@ -1,9 +1,11 @@
-name: 骷髅机枪手
-type: WITHER_SKELETON
+name: 幻影术师
+type: EVOKER
 abilities:
 - set-generic-spawn
-- set-archer-shoot-1
-nbttags: '{Attributes:[{Name:generic.movementSpeed,Base:0.1}],HandItems:[{id:"minecraft:diamond_hoe",Count:1b},{}],HandDropChances:[-327.67F,0.85F]}'
+- set-generic-teleporttoplayer-1
+- set-mage-beam-1
+- set-potionself-invisibility-1
+nbttags: ''
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false
