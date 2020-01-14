@@ -17,7 +17,7 @@ worlds:
     max-mob-per-player: 3
     max-mob-in-world: 160
     spawn-range-min: 12
-    spawn-range-max: 48
+    spawn-range-max: 40
     mob-active-interval: 60
     aggro:
       __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$AggroConfig
