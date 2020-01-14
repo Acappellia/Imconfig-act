@@ -1,0 +1,64 @@
+name: 鸡
+type: CHICKEN
+abilities:
+- set-generic-spawn
+nbttags: ''
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 100
+  levels:
+  - 1
+  worlds:
+  - nanospace
+  biomes:
+  - BADLANDS
+  - BADLANDS_PLATEAU
+  - BEACH
+  - BIRCH_FOREST
+  - BIRCH_FOREST_HILLS
+  - COLD_OCEAN
+  - DARK_FOREST
+  - DEEP_COLD_OCEAN
+  - DEEP_FROZEN_OCEAN
+  - DEEP_LUKEWARM_OCEAN
+  - DESERT
+  - DESERT_HILLS
+  - FOREST
+  - FROZEN_RIVER
+  - GIANT_TREE_TAIGA
+  - GIANT_TREE_TAIGA_HILLS
+  - JUNGLE
+  - JUNGLE_EDGE
+  - JUNGLE_HILLS
+  - LUKEWARM_OCEAN
+  - MOUNTAINS
+  - MUSHROOM_FIELD_SHORE
+  - MUSHROOM_FIELDS
+  - PLAINS
+  - RIVER
+  - SAVANNA
+  - SAVANNA_PLATEAU
+  - SNOWY_BEACH
+  - SNOWY_MOUNTAINS
+  - SNOWY_TAIGA
+  - SNOWY_TAIGA_HILLS
+  - SNOWY_TUNDRA
+  - STONE_SHORE
+  - SWAMP
+  - TAIGA
+  - TAIGA_HILLS
+  - WARM_OCEAN
+  - WOODED_BADLANDS_PLATEAU
+  - WOODED_HILLS
+  - WOODED_MOUNTAINS
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 30.0
+    list:
+    - special-chicken-1:100
+  expOverride: -1

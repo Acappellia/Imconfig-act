@@ -1,0 +1,27 @@
+name: 牛爷爷
+type: RAVAGER
+abilities:
+- set-generic-spawn
+- set-potionhit-damageresistance-1
+- set-generic-stuck-1
+- set-generic-resistance-1
+nbttags: '{Attributes:[{Name:generic.movementSpeed,Base:0.4}]}'
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: false
+  weight: 100
+  levels:
+  - 25-36
+  worlds:
+  - nanospace
+  biomes: []
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 5.0
+    list:
+    - special-warrior-3:100
+  expOverride: -1

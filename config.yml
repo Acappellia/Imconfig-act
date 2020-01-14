@@ -14,10 +14,10 @@ worlds:
   nanospace:
     __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig
     disable-natural-spawning: true
-    max-mob-per-player: 2
+    max-mob-per-player: 3
     max-mob-in-world: 160
-    spawn-range-min: 8
-    spawn-range-max: 32
+    spawn-range-min: 12
+    spawn-range-max: 48
     mob-active-interval: 60
     aggro:
       __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$AggroConfig
