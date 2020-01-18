@@ -5,6 +5,7 @@ abilities:
     amount: 1
     radius: 2.0
     type: BEE
+    maxTimes: 3
   SkillEffect:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySkillEffect
     particle:
