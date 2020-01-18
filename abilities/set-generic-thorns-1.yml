@@ -1,0 +1,5 @@
+abilities:
+  Thorn:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityThorns
+    percentile: 80.0
+weight: 5

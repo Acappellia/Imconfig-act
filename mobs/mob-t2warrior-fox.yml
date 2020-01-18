@@ -3,6 +3,7 @@ type: FOX
 abilities:
 - set-generic-spawn
 - set-fox-atk-1
+- set-generic-thorns-1
 nbttags: ''
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig

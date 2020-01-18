@@ -4,6 +4,7 @@ abilities:
 - set-generic-spawn
 - set-potionhit-poison-2
 - set-bee-summon-1
+- set-generic-thorns-1
 nbttags: ''
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
