@@ -1,16 +1,18 @@
-name: 土匪
-type: VINDICATOR
+name: 地狱轰炸机
+type: GHAST
 abilities:
 - set-generic-spawn
-- set-potionhit-confusion-1
-- set-potionhit-wither-2
-nbttags: '{Attributes:[{Name:generic.movementSpeed,Base:0.35}],HandItems:[{id:"minecraft:diamond_axe",Count:1b,tag:{display:{Name:"{\"text\":\"板斧\",\"color\":\"gray\"}"}}},{}],HandDropChances:[-327.67F,0.85F]}'
+- set-mage-fire-1
+- set-mage-meteor-1
+- set-potionhit-damageresistance-2
+- set-potionhit-blindness-1
+nbttags: ''
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false
   weight: 50
   levels:
-  - 13-24
+  - '40'
   worlds:
   - nanospace
   biomes: []
@@ -22,5 +24,5 @@ loot:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
     chance: 5.0
     list:
-    - special-mage-2:100
+    - special-archer-3:100
   expOverride: -1

@@ -1,16 +1,14 @@
-name: 遗迹守卫者
-type: GUARDIAN
+name: 兔兔
+type: RABBIT
 abilities:
 - set-generic-spawn
-- set-generic-dummy-1
-- set-fish-bubble-1
 nbttags: ''
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false
-  weight: 50
+  weight: 100
   levels:
-  - 25-36
+  - '30'
   worlds:
   - nanospace
   biomes: []
@@ -20,7 +18,7 @@ loot:
   imLoot: true
   special:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
-    chance: 5.0
+    chance: 30.0
     list:
-    - special-mage-3:100
+    - special-rabbit-1:100
   expOverride: -1

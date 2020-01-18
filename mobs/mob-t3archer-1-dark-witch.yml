@@ -10,7 +10,7 @@ spawn:
   autoSpawn: false
   weight: 50
   levels:
-  - 13-24
+  - 25-36
   worlds:
   - nanospace
   biomes: []
@@ -22,5 +22,5 @@ loot:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
     chance: 5.0
     list:
-    - special-archer-2:100
+    - special-archer-3:100
   expOverride: -1

@@ -1,16 +1,18 @@
-name: 土匪
-type: VINDICATOR
+name: 遗迹守卫者
+type: ELDER_GUARDIAN
 abilities:
 - set-generic-spawn
-- set-potionhit-confusion-1
-- set-potionhit-wither-2
-nbttags: '{Attributes:[{Name:generic.movementSpeed,Base:0.35}],HandItems:[{id:"minecraft:diamond_axe",Count:1b,tag:{display:{Name:"{\"text\":\"板斧\",\"color\":\"gray\"}"}}},{}],HandDropChances:[-327.67F,0.85F]}'
+- set-aoe-slow-2
+- set-fish-bubble-1
+- set-potionhit-breath-1
+- set-guardian-shield
+nbttags: ''
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false
   weight: 50
   levels:
-  - 13-24
+  - '40'
   worlds:
   - nanospace
   biomes: []
@@ -22,5 +24,5 @@ loot:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
     chance: 5.0
     list:
-    - special-mage-2:100
+    - special-mage-3:100
   expOverride: -1

@@ -1,7 +1,7 @@
 abilities:
   Beam:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityBeam
-    length: 48
+    length: 64
     particle:
       __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
       type: FLAME
@@ -12,12 +12,12 @@ abilities:
       amount: 10
       extraData: ''
       forced: false
-    speed: 20.0
+    speed: 60.0
     spawnsPerBlock: 4.0
     cone: 5.0
     pierce: true
     ignoreWall: false
-    range: 40.0
+    range: 48.0
     damageMultiplier: 1.0
     burst: 3
     burstInterval: 10

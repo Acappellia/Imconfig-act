@@ -1,13 +1,13 @@
-name: 捣蛋鬼
-type: VEX
+name: 骷髅机枪手
+type: WITHER_SKELETON
 abilities:
 - set-generic-spawn
-- set-potionhit-weakness-1
-nbttags: ''
+- set-archer-shoot-1
+nbttags: '{Attributes:[{Name:generic.movementSpeed,Base:0.1}],HandItems:[{id:"minecraft:diamond_hoe",Count:1b},{}],HandDropChances:[-327.67F,0.85F]}'
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false
-  weight: 100
+  weight: 50
   levels:
   - 25-36
   worlds:

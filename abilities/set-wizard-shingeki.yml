@@ -1,26 +1,24 @@
 abilities:
-  Summon:
-    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySummon
-    nbt: '{Particle:"entity_effect",Radius:1f,RadiusPerTick:0.2f,Duration:300,Color:30719,Effects:[{Id:20b,Amplifier:4b,Duration:60}]}'
-    amount: 2
-    radius: 24.0
-    type: AREA_EFFECT_CLOUD
-    maxTimes: 0
+  Shingeki:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityShingeki
+    amount: 5
+    delay: 10
+    damageAmplifier: 1.0
   SkillEffect:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySkillEffect
     particle:
       __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
-      type: SPELL_WITCH
+      type: DRAGON_BREATH
       deltaX: 0.2
       deltaY: 0.5
       deltaZ: 0.2
-      speed: 1.0
+      speed: 0.1
       amount: 100
       extraData: ''
       forced: false
     particleEnabled: true
     soundEnabled: true
     sound: ENTITY_EVOKER_CAST_SPELL
-    pitch: 0.8
+    pitch: 0.0
     volume: 1.0
 weight: 5

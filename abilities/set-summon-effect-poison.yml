@@ -1,7 +1,7 @@
 abilities:
   Summon:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySummon
-    nbt: '{Particle:"entity_effect",Radius:1f,RadiusPerTick:0.2f,Duration:40,Color:65331,Effects:[{Id:19b,Amplifier:4b,Duration:60}]}'
+    nbt: '{Particle:"entity_effect",Radius:1f,RadiusPerTick:0.2f,Duration:200,Color:65331,Effects:[{Id:19b,Amplifier:4b,Duration:60}]}'
     amount: 2
     radius: 24.0
     type: AREA_EFFECT_CLOUD

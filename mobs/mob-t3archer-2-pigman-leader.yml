@@ -1,16 +1,17 @@
-name: 土匪
-type: VINDICATOR
+name: 猪人首领
+type: PIG_ZOMBIE
 abilities:
 - set-generic-spawn
-- set-potionhit-confusion-1
-- set-potionhit-wither-2
-nbttags: '{Attributes:[{Name:generic.movementSpeed,Base:0.35}],HandItems:[{id:"minecraft:diamond_axe",Count:1b,tag:{display:{Name:"{\"text\":\"板斧\",\"color\":\"gray\"}"}}},{}],HandDropChances:[-327.67F,0.85F]}'
+- set-aoe-slow-1
+- set-generic-dummy-1
+- set-pigman-summon-1
+nbttags: '{Attributes:[{Name:generic.movementSpeed,Base:0.2}],HandItems:[{id:"minecraft:golden_axe",Count:1b},{id:"minecraft:shield",Count:1b}],HandDropChances:[-327.67F,-327.67F],ArmorItems:[{},{},{},{id:"minecraft:golden_helmet",Count:1b}],ArmorDropChances:[0.85F,0.85F,0.85F,-327.67F]}'
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false
   weight: 50
   levels:
-  - 13-24
+  - 25-36
   worlds:
   - nanospace
   biomes: []
@@ -22,5 +23,5 @@ loot:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
     chance: 5.0
     list:
-    - special-mage-2:100
+    - special-archer-3:100
   expOverride: -1
