@@ -4,7 +4,7 @@ abilities:
 - set-generic-spawn
 - set-aoe-slow-1
 - set-aoe-blind-1
-nbttags: '{Attributes:[{Name:generic.movementSpeed,Base:0.32}],HandItems:[{id:"minecraft:wooden_axe",Count:1b},{id:"minecraft:shield",Count:1b}],HandDropChances:[-327.67F,-327.67F],ArmorItems:[{},{},{},{id:"minecraft:golden_helmet",Count:1b}],ArmorDropChances:[0.85F,0.85F,0.85F,-327.67F]}'
+nbttags: '{IsBaby:1b,Attributes:[{Name:generic.movementSpeed,Base:0.45}],HandItems:[{id:"minecraft:wooden_axe",Count:1b},{id:"minecraft:shield",Count:1b}],HandDropChances:[-327.67F,-327.67F],ArmorItems:[{},{},{},{id:"minecraft:golden_helmet",Count:1b}],ArmorDropChances:[0.85F,0.85F,0.85F,-327.67F]}'
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false

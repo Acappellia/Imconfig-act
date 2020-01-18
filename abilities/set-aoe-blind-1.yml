@@ -2,7 +2,7 @@ abilities:
   AoePotion:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityAoePotion
     effect: BLINDNESS
-    duration: 40
+    duration: 100
     amplifier: 1
     radius: 24.0
   SkillEffect:

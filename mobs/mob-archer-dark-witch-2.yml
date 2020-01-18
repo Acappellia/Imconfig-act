@@ -3,7 +3,6 @@ type: WITCH
 abilities:
 - set-generic-spawn
 - set-mage-meteor-1
-- set-mage-aoe-poison-1
 - set-aoe-blind-1
 nbttags: ''
 spawn:
