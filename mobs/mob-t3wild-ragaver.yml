@@ -3,7 +3,7 @@ type: RAVAGER
 abilities:
 - set-generic-spawn
 - set-potionhit-damageresistance-1
-- set-generic-stuck-1
+- set-potionhit-slow-1
 - set-generic-resistance-1
 nbttags: '{Attributes:[{Name:generic.movementSpeed,Base:0.4}]}'
 spawn:

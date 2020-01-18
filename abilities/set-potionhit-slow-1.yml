@@ -1,7 +1,7 @@
 abilities:
   PotionHit:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityPotionHit
-    effect: HEALTH_BOOST
-    duration: 600
-    amplifier: -5
+    effect: SLOW
+    duration: 30
+    amplifier: 9
 weight: 5

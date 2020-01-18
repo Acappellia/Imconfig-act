@@ -2,7 +2,6 @@ name: 土匪头子
 type: PILLAGER
 abilities:
 - set-generic-spawn
-- set-potionhit-wither-2
 - set-potionhit-unhealthy-1
 nbttags: '{Attributes:[{Name:generic.movementSpeed,Base:0.35}]}'
 spawn:

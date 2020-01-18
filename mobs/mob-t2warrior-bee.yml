@@ -2,7 +2,6 @@ name: 愤怒蜜蜂
 type: BEE
 abilities:
 - set-generic-spawn
-- set-potionhit-confusion-1
 - set-potionhit-poison-2
 - set-bee-summon-1
 nbttags: ''

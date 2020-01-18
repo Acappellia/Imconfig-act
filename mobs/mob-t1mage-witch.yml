@@ -2,7 +2,7 @@ name: 下级巫师
 type: WITCH
 abilities:
 - set-generic-spawn
-nbttags: ''
+nbttags: '{ActiveEffects:[{Id:10b,Amplifier:4b,Duration:400}]}'
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false
