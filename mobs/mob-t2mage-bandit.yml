@@ -1,0 +1,25 @@
+name: 土匪
+type: PILLAGER
+abilities:
+- set-generic-spawn
+- set-potionhit-saturation-1
+nbttags: '{Attributes:[{Name:generic.movementSpeed,Base:0.35}]}'
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: false
+  weight: 50
+  levels:
+  - 13-24
+  worlds:
+  - nanospace
+  biomes: []
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 5.0
+    list:
+    - special-mage-2:100
+  expOverride: -1

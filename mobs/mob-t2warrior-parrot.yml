@@ -1,16 +1,15 @@
-name: 寒霜傀儡
-type: IRON_GOLEM
+name: 咕咕怪
+type: PARROT
 abilities:
 - set-generic-spawn
-- set-potionhit-damageresistance-1
-- set-golem-frost-beam-1
-nbttags: '{Attributes:[{Name:generic.movementSpeed,Base:0.3}]}'
+- set-parrot-atk-1
+nbttags: ''
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false
-  weight: 100
+  weight: 50
   levels:
-  - 25-36
+  - 13-24
   worlds:
   - nanospace
   biomes: []
@@ -22,5 +21,5 @@ loot:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
     chance: 5.0
     list:
-    - special-warrior-3:100
+    - special-warrior-2:100
   expOverride: -1

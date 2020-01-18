@@ -1,0 +1,27 @@
+name: 愤怒蜜蜂
+type: BEE
+abilities:
+- set-generic-spawn
+- set-potionhit-confusion-1
+- set-potionhit-poison-2
+- set-bee-summon-1
+nbttags: ''
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: false
+  weight: 50
+  levels:
+  - 13-24
+  worlds:
+  - nanospace
+  biomes: []
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 5.0
+    list:
+    - special-warrior-2:100
+  expOverride: -1
