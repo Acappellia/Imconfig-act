@@ -48,3 +48,4 @@ worlds:
       default: NEARBY
       range: 64
 GetDropMessageFeedback: false
+groupShareRange: 50

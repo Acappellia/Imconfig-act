@@ -5,6 +5,7 @@ abilities:
     amount: 1
     radius: 32.0
     type: DRAGON_FIREBALL
+    maxTimes: 0
   SkillEffect:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySkillEffect
     particle:

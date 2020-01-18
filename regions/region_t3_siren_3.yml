@@ -1,0 +1,12 @@
+name: region
+region:
+  __class__: cat.nyaa.infiniteinfernal.configs.RegionConfig$Region
+  world: nanospace
+  xMax: 458
+  xMin: 414
+  yMax: 49
+  yMin: 26
+  zMax: -636
+  zMin: -680
+mobs: []
+followGlobalLevel: false

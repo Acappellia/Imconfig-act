@@ -1,8 +1,4 @@
 abilities:
-  Teleport:
-    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityTeleport
-    radius: 5.0
-    range: 32.0
   SkillEffect:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySkillEffect
     particle:
@@ -20,4 +16,8 @@ abilities:
     sound: ENTITY_ILLUSIONER_MIRROR_MOVE
     pitch: 1.2
     volume: 1.0
+  Teleport:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityTeleport
+    radius: 5.0
+    range: 32.0
 weight: 5
