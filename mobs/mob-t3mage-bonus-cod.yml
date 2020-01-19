@@ -2,7 +2,7 @@ name: 鳕鱼
 type: COD
 abilities:
 - set-generic-spawn
-nbttags: ''
+nbttags: '{Health:20f,Attributes:[{Name:generic.maxHealth,Base:20}]}'
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false
