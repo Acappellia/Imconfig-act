@@ -8,7 +8,7 @@ region:
   yMin: 191
   zMax: 69
   zMin: 23
-mobs: 
+mobs:
 - mob-t3archer-bonus-pig:100
 - mob-t3archer-3-ghast:20
 followGlobalLevel: false
