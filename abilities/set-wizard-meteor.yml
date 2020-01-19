@@ -1,12 +1,12 @@
 abilities:
+  Stuck:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityStuck
+    duration: 40
   Meteor:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityMeteor
     delay: 10
     amount: 1
     power: 2.5
-  Stuck:
-    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityStuck
-    duration: 40
   SkillEffect:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySkillEffect
     particle:

@@ -4,10 +4,9 @@ abilities:
     particleConfig:
       __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
       type: SPELL_WITCH
-      delta:
-      - 1.0
-      - 1.0
-      - 1.0
+      deltaX: 1.0
+      deltaY: 1.0
+      deltaZ: 1.0
       speed: 1.0
       amount: 10
       extraData: ''
