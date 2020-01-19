@@ -23,5 +23,5 @@ loot:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
     chance: 5.0
     list:
-    - special-warrior-3:100
+    - special-t3wild-2:100
   expOverride: -1

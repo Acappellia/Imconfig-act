@@ -8,5 +8,8 @@ region:
   yMin: 113
   zMax: 65
   zMin: 25
-mobs: []
+mobs:
+- mob-t3archer-2-pigman:100
+- mob-t3archer-2-pigman-leader:100
+- mob-t3archer-bonus-pig:100
 followGlobalLevel: false

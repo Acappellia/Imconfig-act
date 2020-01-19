@@ -8,5 +8,10 @@ region:
   yMin: 17
   zMax: -40
   zMin: -138
-mobs: []
+mobs:
+- mob-t1warrior-bug:100
+- mob-t1warrior-stray:100
+- mob-t1warrior-vex:100
+- mob-global-zombie-basic-1:100
+- mob-global-skeleton-archer-1:100
 followGlobalLevel: false

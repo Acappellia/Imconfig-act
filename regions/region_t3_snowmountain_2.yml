@@ -8,5 +8,8 @@ region:
   yMin: 121
   zMax: 288
   zMin: 256
-mobs: []
+mobs:
+- mob-t3warrior-2-chaos:100
+- mob-t3warrior-2-enderman:100
+- mob-t3warrior-bonus-rabbit:100
 followGlobalLevel: false

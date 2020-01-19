@@ -1,19 +1,17 @@
-name: 地狱轰炸机
-type: GHAST
+name: 十月十日豚
+type: PUFFERFISH
 abilities:
 - set-generic-spawn
-- set-mage-fire-1
-- set-mage-meteor-1
-- set-potionhit-damageresistance-2
-- set-potionhit-blindness-1
-- set-generic-teleporttoplayer-1
+- set-potionhit-confusion-1
+- set-potionhit-poison-2
+- set-generic-teleport-1
 nbttags: ''
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false
-  weight: 50
+  weight: 100
   levels:
-  - '40'
+  - 13-24
   worlds:
   - nanospace
   biomes: []
@@ -23,8 +21,7 @@ loot:
   imLoot: true
   special:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
-    chance: 100.0
+    chance: 5.0
     list:
-    - special-archer-3:100
-    - special-archer-4:100
+    - special-t2wild-2:100
   expOverride: -1

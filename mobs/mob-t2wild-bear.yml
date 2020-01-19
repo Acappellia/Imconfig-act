@@ -1,19 +1,16 @@
-name: 地狱轰炸机
-type: GHAST
+name: 熊二
+type: POLAR_BEAR
 abilities:
 - set-generic-spawn
-- set-mage-fire-1
-- set-mage-meteor-1
-- set-potionhit-damageresistance-2
-- set-potionhit-blindness-1
-- set-generic-teleporttoplayer-1
-nbttags: ''
+- set-potionhit-slow-1
+- set-potionhit-weakness-1
+nbttags: '{Attributes:[{Name:generic.movementSpeed,Base:0.3}]}'
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false
-  weight: 50
+  weight: 100
   levels:
-  - '40'
+  - 13-24
   worlds:
   - nanospace
   biomes: []
@@ -23,8 +20,7 @@ loot:
   imLoot: true
   special:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
-    chance: 100.0
+    chance: 5.0
     list:
-    - special-archer-3:100
-    - special-archer-4:100
+    - special-t2wild-1:100
   expOverride: -1

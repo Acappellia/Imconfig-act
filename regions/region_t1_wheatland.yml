@@ -8,5 +8,10 @@ region:
   yMin: 59
   zMax: -341
   zMin: -440
-mobs: []
+mobs:
+- mob-t1archer-chaos-witch:100
+- mob-t1archer-llama:100
+- mob-t1archer-zombie-villager:100
+- mob-global-zombie-basic-1:100
+- mob-global-skeleton-archer-1:100
 followGlobalLevel: false

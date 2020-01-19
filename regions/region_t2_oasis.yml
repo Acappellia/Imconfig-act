@@ -8,5 +8,10 @@ region:
   yMin: 53
   zMax: -363
   zMin: -477
-mobs: []
+mobs:
+- mob-t2archer-endermite:100
+- mob-t2archer-lava:100
+- mob-t2archer-spider:100
+- mob-global-poisonous-spider-2:100
+- mob-global-zombie-army-2:100
 followGlobalLevel: false

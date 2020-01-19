@@ -8,5 +8,10 @@ region:
   yMin: 61
   zMax: -158
   zMin: -227
-mobs: []
+mobs:
+- mob-t2mage-bandit:100
+- mob-t2mage-bandit-head:100
+- mob-t2mage-hungry-husk:100
+- mob-global-poisonous-spider-2:100
+- mob-global-zombie-army-2:100
 followGlobalLevel: false

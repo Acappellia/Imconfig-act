@@ -8,5 +8,8 @@ region:
   yMin: 72
   zMax: 55
   zMin: -71
-mobs: []
+mobs:
+- mob-t3archer-1-dark-witch:100
+- mob-t3archer-1-phanton-witch:100
+- mob-global-zombie-baby-3:100
 followGlobalLevel: false

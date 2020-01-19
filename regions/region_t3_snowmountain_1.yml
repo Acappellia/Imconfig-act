@@ -8,5 +8,8 @@ region:
   yMin: 96
   zMax: 352
   zMin: 188
-mobs: []
+mobs:
+- mob-t3warrior-1-shulker:100
+- mob-t3warrior-1-skeleton-gunner:100
+- mob-global-skeleton-sniper-3:100
 followGlobalLevel: false

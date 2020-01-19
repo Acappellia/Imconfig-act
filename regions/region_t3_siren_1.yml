@@ -8,5 +8,8 @@ region:
   yMin: 61
   zMax: -556
   zMin: -632
-mobs: []
+mobs:
+- mob-t3mage-1-evil-witch:100
+- mob-t3mage-1-revenger:100
+- mob-global-zombie-baby-3:100
 followGlobalLevel: false
