@@ -13,3 +13,4 @@ mobs:
 - mob-t3mage-2-fish-3:100
 - mob-t3mage-bonus-cod:100
 followGlobalLevel: false
+maxSpawnAmountOverride: -1

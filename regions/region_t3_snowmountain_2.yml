@@ -13,3 +13,4 @@ mobs:
 - mob-t3warrior-2-enderman:100
 - mob-t3warrior-bonus-rabbit:100
 followGlobalLevel: false
+maxSpawnAmountOverride: -1

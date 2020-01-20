@@ -13,3 +13,4 @@ mobs:
 - mob-t3warrior-1-skeleton-gunner:100
 - mob-global-skeleton-sniper-3:100
 followGlobalLevel: false
+maxSpawnAmountOverride: -1

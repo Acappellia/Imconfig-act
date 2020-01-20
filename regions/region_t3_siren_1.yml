@@ -13,3 +13,4 @@ mobs:
 - mob-t3mage-1-revenger:100
 - mob-global-zombie-baby-3:100
 followGlobalLevel: false
+maxSpawnAmountOverride: -1

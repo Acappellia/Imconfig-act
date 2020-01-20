@@ -12,3 +12,4 @@ mobs:
 - mob-t3archer-bonus-pig:100
 - mob-t3archer-3-ghast:20
 followGlobalLevel: false
+maxSpawnAmountOverride: -1

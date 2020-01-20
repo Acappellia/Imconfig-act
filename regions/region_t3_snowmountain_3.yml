@@ -12,3 +12,4 @@ mobs:
 - mob-t3warrior-bonus-rabbit:100
 - mob-t3warrior-3-wizard:20
 followGlobalLevel: false
+maxSpawnAmountOverride: -1

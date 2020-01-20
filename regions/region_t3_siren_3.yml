@@ -12,3 +12,4 @@ mobs:
 - mob-t3mage-bonus-cod:100
 - mob-t3mage-3-bubble:20
 followGlobalLevel: false
+maxSpawnAmountOverride: -1
