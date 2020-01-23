@@ -1,4 +1,4 @@
-name: 寒霜傀儡
+name: 铁皮武士
 type: IRON_GOLEM
 abilities:
 - set-generic-spawn
@@ -21,8 +21,8 @@ loot:
   imLoot: true
   special:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
-    chance: 8.0
+    chance: 4.0
     list:
-    - special-t3wild-1:100
-    - generic-apple-2:20
+    - special-global5-1:100
+    - generic-apple-3:100
   expOverride: -1

@@ -1,16 +1,16 @@
-name: 熊二
-type: POLAR_BEAR
+name: 鸟妖
+type: PHANTOM
 abilities:
 - set-generic-spawn
-- set-potionhit-slow-1
-- set-potionhit-weakness-1
-nbttags: '{Attributes:[{Name:generic.movementSpeed,Base:0.3}]}'
+- set-potionhit-wither-2
+- set-aoe-slow-1
+nbttags: ''
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false
   weight: 100
   levels:
-  - 13-24
+  - 25-36
   worlds:
   - nanospace
   biomes: []
@@ -20,8 +20,8 @@ loot:
   imLoot: true
   special:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
-    chance: 8.0
+    chance: 4.0
     list:
-    - special-t2wild-1:100
-    - generic-apple-2:20
+    - special-global5-1:100
+    - generic-apple-3:100
   expOverride: -1

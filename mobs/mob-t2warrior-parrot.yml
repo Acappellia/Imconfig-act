@@ -23,5 +23,5 @@ loot:
     chance: 8.0
     list:
     - special-warrior-2:100
-    - generic-apple-2:20
+    - generic-apple-2:30
   expOverride: -1

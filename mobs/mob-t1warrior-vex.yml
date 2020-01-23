@@ -18,7 +18,8 @@ loot:
   imLoot: true
   special:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
-    chance: 5.0
+    chance: 10.0
     list:
     - special-warrior-1:100
+    - special-global2-1:50
   expOverride: -1

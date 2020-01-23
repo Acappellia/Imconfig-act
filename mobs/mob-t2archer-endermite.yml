@@ -23,5 +23,5 @@ loot:
     chance: 8.0
     list:
     - special-archer-2:100
-    - generic-apple-2:20
+    - special-global3-1:10
   expOverride: -1
