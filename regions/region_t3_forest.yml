@@ -2,15 +2,15 @@ name: region
 region:
   __class__: cat.nyaa.infiniteinfernal.configs.RegionConfig$Region
   world: nanospace
-  xMax: -431
-  xMin: -182
+  xMax: -182
+  xMin: -431
   yMax: 118
   yMin: 60
-  zMax: 443
-  zMin: 573
-mobs: 
+  zMax: 573
+  zMin: 443
+mobs:
 - mob-t3wild-frost-golem:100
 - mob-t3wild-phantom:100
-- mob-global-skeleton-sniper:100
+- mob-global-skeleton-sniper-3:100
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

@@ -8,7 +8,7 @@ region:
   yMin: 81
   zMax: -781
   zMin: -883
-mobs: 
+mobs:
 - mob-t3wild-bear:100
 - mob-t3wild-ragaver:100
 - mob-global-zombie-army-3:100

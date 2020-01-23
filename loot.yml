@@ -19,15 +19,30 @@ items:
     nbt: eJxjZGBgeMDMIJdXmZiYnF+UGp9ZkppbXJKYnB2fkliSWJZaVJyZn8fAwLGZg4EpM4VBIDczLzW5KDGtxKqwNLGopIqRgdU5vzSvhJGLgbkkMZ2LgT0ls7ggJ7GSk4HFB2ggB9ACJgbTaqWS1IoSJSulQ8vNXyxveTZ1y/NZLc9mbnuyd/LTntYXi3c+n9vwdPuKp0uWA8VfNO992d6vVMuggKQt7fmUFU929T1du+zJzgXPuhqAipRqORhY/BJzUxmkkBRaPtmx9uWMbS/XTgGaDzSEgQEAhwxgkA==
     name: generic-crystal2-1
     dynamic: false
+  special-global5-1:
+    __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
+    nbt: eJxjZGBgOMjMIJdXmZiYnF+UGp9ZkppbXJKYnB2fkliSWJZaVJyZn8fAwLGZg4EpM4VBODczLzW5KDGtxCojPy+1Mjk/N4mRgdU5vzSvhJGLgbkkMZ2LgT0ls7ggJ7GSk4HFB2gmB9AOJga5aqWS1IoSJSulQ8vNczNLUaBSLYMsknzRy8bJT1u3P22d+Kx30fPOlUq1HAwsfom5qQxCSKpSfCE6GRgAxMJDIA==
+    name: special-global5-1
+    dynamic: false
   generic-crystal3-1:
     __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
     nbt: eJxjZGBgeMHMIJdXmZiYnF+UGp9ZkppbXJKYnB2fkliSWJZaVJyZn8fAwLGZg4EpM4VBNDczLzW5KDGtxCovtSQjtSgeqLiIkYHVOb80r4SRi4G5JDGdi4E9JbO4ICexkpOBxQdoKgfQFiYGi2qlktSKEiUrpUPLzZ9Pang+acXTJdNeLFzxZGf3kx1rn21tfLa95/nchqdLVj6f2gMUfL5p39PePqVaBgUknWnPp6x4sqvv6dplT3YueNbV8KJ5r1ItBwOLX2JuKoMUksKUJzu6Xs7Y9nLtlGcztwENYWAAALlzZO8=
     name: generic-crystal3-1
     dynamic: false
+  special-global6-1:
+    __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
+    nbt: eJxjZGBgeMnMIJdXmZiYnF+UGp9ZkppbXJKYnB2fkliSWJZaVJyZn8fAwLGZg4EpM4VBLDczLzW5KDGtxCo5I7+otDg+rag0s4SRgdU5vzSvhJGLgbkkMZ2LgT0ls7ggJ7GSk4HFB2gsB9AaJgbraqWS1IoSJSulQ8vNny+d93z5jOezWp52zX7Z3v9+T8+zTQufzel8smvX8/lLXzZOfrquGSj7bO7SZ7smKNUyyCJpLgJJt25/2jrxWe+i550rlWo5GFj8EnNTGaSQVJk8a9z2cu2UZ/PmPF03D2gCAwMADN9kgQ==
+    name: special-global6-1
+    dynamic: false
   special-warrior-4:
     __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
     nbt: eJxjZGBg2M7MIJdXmZiYnF+UGp9ZkppbXJKYnB2fkliSWJZaVJyZn8fAwLGZg4EpM4VBNDczLzW5KDGtxCo5Pzk/MT4pNTGvmJGB1Tm/NK+EkYuBuSQxnYuBPSWzuCAnsZKTgcUHaCoH0BZGBs1qpZLUihIlK6VDy82f9i950dD4fFbLi/WtTydNerqh8Wnvhqet257sWKtUy8HA4peYm8oghaQj+WnX7Jft/U92dr9c26RUCzQRAGQgRq0=
     name: special-warrior-4
+    dynamic: false
+  special-global3-1:
+    __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
+    nbt: eJxjZGBguM3MIJdXmZiYnF+UGp9ZkppbXJKYnB2fkliSWJZaVJyZn8fAwLGZg4EpM4VBMDczLzW5KDGtxColMzE3Py+FkYHVOb80r4SRi4G5JDGdi4E9JbO4ICexkpOBxQdoIgfQBiYGi2qlktSKEiUrpUPLzZ/N3Paib+fTzikvG/rf7+l5smfPk519L6ZueTG9//nchie7G57s7HjaNftle79SLYMsks6il42Tn7Zuf9o68VnvouedK5VqORhY/BJzUxlEkFQlAc1/sncyUC8DAwByyFwD
+    name: special-global3-1
     dynamic: false
   generic-crystal1-1:
     __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
@@ -38,6 +53,11 @@ items:
     __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
     nbt: eJxjZGBg5GRmkMurTExMzi9Kjc8sSc0tLklMzo5PSSxJLEstKs7Mz2Ng4NjMwcCUmcIglpuZl5pclJhWYpWUk1iVGl+QX56SWsTIwOqcX5pXwsjFwFySmM7FwJ6SWVyQk1jJycDiAzSWg4GBgYVBp1qpJLWiRMlK6dBy8xf7Zz/Z0fBs7dJn/ROe9rY/7Wh42jnx+ayWl1O6n+5aplTLwA1XDeQoIGlNe9HY82THrPd7Zh1anvysY8bTxavRVTyfsuLJrr6nHdue7J3zbO2ypzNXKNVyMLD4JeamMogjKUx93rj6ecuG55s6gSYwMAAAkrpujQ==
     name: special-warrior-3
+    dynamic: false
+  special-global4-1:
+    __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
+    nbt: eJxjZGBguMfMIJdXmZiYnF+UGp9ZkppbXJKYnB2fkliSWJZaVJyZn8fAwLGZg4EpM4VBMDczLzW5KDGtxCo1N7UoMSeFkYHVOb80r4SRi4G5JDGdi4E9JbO4ICexkpOBxQdoIgfQBiYG02qlktSKEiUrpUPLzZ/smPZ8as+zBROfz2p5vnvys5nb3u/peTF1y4vp/S/aVz1v2fZkZ/fTrtlKtQyySNqKXjZOftq6/WnrxGe9i553rlSq5WBg8UvMTWWQQlKV+HzK/KcT90KMBZrAwAAAaIleSg==
+    name: special-global4-1
     dynamic: false
   special-chicken-1:
     __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
@@ -143,6 +163,16 @@ items:
     __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
     nbt: eJxjZGBgeMnMIJdXmZiYnF+UGp9ZkppbXJKYnB2fkliSWJZaVJyZn8fAwLGZg4EpM4VBLDczLzW5KDGtxCo9PyclNS8+saAgJ5WRgdU5vzSvhJGLgbkkMZ2LgT0ls7ggJ7GSk4HFB2gsB9AaJgajaqWS1IoSJSulQ8vNn+5peDph/bOZu561Ln+/p+dpz66nHW1Pp7U8a9z2fFbLs3lznq6bp1TLoICkp+j5lBVPdvU9Xbvsyc4Fz7oaXjTvVarlYGDxS8xNRVGY9GRP1/MpO57OXgs06kX3TqBpQKMYGACSQ2Tf
     name: generic-apple-2
+    dynamic: false
+  special-global1-1:
+    __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
+    nbt: eJxjZGBgOMHMIJdXmZiYnF+UGp9ZkppbXJKYnB2fkliSWJZaVJyZn8fAwLGZg4EpM4VBIDczLzW5KDGtxKq4pCgzL52RgdU5vzSvhJGLgbkkMZ2LgT0ls7ggJ7GSk4HFB2ggB9ACJga1aqWS1IoSJSulQ8vNn3Zse7J3zvM9G57v3vx8VsvTvvnP5k54Nm2mUi2DLJK6opeNk5+2bn/aOvFZ76LnnSuVajkYWPwSc1MZRJBNe7Jr1stdu4F6GRgA4BpPNQ==
+    name: special-global1-1
+    dynamic: false
+  special-global2-1:
+    __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
+    nbt: eJxjZGBg2M/MIJdXmZiYnF+UGp9ZkppbXJKYnB2fkliSWJZaVJyZn8fAwLGZg4EpM4WBNzczLzW5KDGtxCo1PZ2RgdU5vzSvhJGLgbkkMZ2LgT0ls7ggJ7GSk4HFB2gaB9B0JgaFaqWS1IoSJSulQ8vNX7S0AdHzWS1P93U8Xbr36YRmpVoGWSQVRS8bJz9t3f60deKz3kXPO1cq1XIwsPgl5qYyiCCpSn06d9azeXOAehkYAGL1SJ8=
+    name: special-global2-1
     dynamic: false
   generic-coin-7:
     __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
