@@ -1,56 +1,102 @@
-loot:
-  add:
-    error:
-      exists: '物品id: %s 已被应用于"{itemName} §r* {amount}", 添加失败'
-      no_item: 主手没有物品
-    success: '物品 {itemName} §r* {amount}, id: %s, 动态几率: %b, 添加成功'
-  get:
-    no_item: 没有名为"%s"的物品
-    success: 成功给予 {itemName} §r* {amount}
-  set:
-    no_item: 没有名为"%s"的物品
-    success: 成功设置 {itemName} §r* {amount} 在等级 %d 掉落， 权重： %d
-manual:
-  no_description: No description
-  no_usage: No usage
 friendly_fire:
   hint: §c请勿攻击队友！你将受到惩罚！
   lv3: §4你因攻击队友而受到了惩罚！！！
   lv2: §4你因攻击队友而受到了惩罚！！
   lv1: §4你因攻击队友而受到了惩罚！
-inspect:
-  level:
-    no_level: 等级 %d 不存在或无掉落
-    info: '{itemName} §r* {amount}, 权重 %d, 动态掉落: %b'
-    success: 查询成功
-  error:
-    invalid_action: 未知命令 %s
-  item:
-    success: '{itemName} * {amount}, 权重 %d, 动态掉落: %b'
-    no_item: 没有名为"%s"的物品
-imi:
-  state_off: §a不接收任何击杀广播
-  state_all: §a将接收全部击杀广播
-  state_self: §a仅接收自己的击杀广播
-  state_near: §a将接收附近的击杀广播
 error:
   not_player: 只有玩家才能执行该命令
   wrong_argument: §c参数错误
   custom_mob:
     no_loot: 没有掉落物品"%s"
     mob:
-      spawn_no_id: 没有id为 %s 的生物
       bad_config: 错误配置文件 %s
+      spawn_no_id: 没有id为 %s 的生物
       num_format: 数字格式错误 %s
   permission: §4你没有权限执行该操作
 killall:
   success: 成功清理了 %d 只黑化怪
   error:
     unknown_world: 未知世界 %s
+group:
+  create:
+    success: 成功创建队伍 %s
+    exists: 已经存在队伍 %s
+  admin:
+    no_group_name: 队伍 %s 不存在
+  drop:
+    roll: '{playerName} 通过roll点得到了 {itemName} * {amount}'
+  join:
+    success: 玩家 %s 加入了队伍 %s
+    already_in: 你已经在队伍 %s 里了
+    no_group: 没有名为 "%s" 的队伍
+  add_player:
+    no_group: 队伍 %s 不存在
+  leave:
+    success: 玩家 %s 离开了队伍
+    no_group: 玩家 %s 没有队伍
+  invite:
+    timeout: 邀请超时
+    no_session: 你没有收到任何请求
+    message: |-
+      玩家 %s 邀请你加入队伍 %s.
+       使用 /ig accept 同意邀请, 或者 /ig deny 拒绝.
+    denied_inviter: 玩家 %s 拒绝了你的邀请
+    no_group: 你不在任何队伍中,使用/ig create <队伍名> 创建一个队伍
+    requested: 你邀请了玩家 %s 加入队伍 %s
+    denied_player: 你拒绝加入队伍 %s
+  list:
+    message:
+      groups: '队伍列表:'
+      players: '队伍 %s 中的玩家:'
+  manage:
+    admin:
+      add_success: 成功添加玩家 %s 到队伍 %s
+      remove_success: 成功移除玩家 %s 从队伍 %s
+    lootmode_change: 掉落分配模式改为 %s
+    expdropmode_change: 经验分配模式修改为 %s
+    no_group: 队伍 %s 不存在
+  chat_format: <{playerName}> {message}
+  disband:
+    aborted: 解散超时
+    message: 你的队伍已经解散
+    confirm_message: 你确定要解散队伍 %s 吗? 重复输入此命令确认
+    no_group: 你不在任何队伍中
+  kick:
+    player: 踢出了玩家 %s
+loot:
+  add:
+    success: '物品 {itemName} §r* {amount}, id: %s, 动态几率: %b, 添加成功'
+    error:
+      exists: '物品id: %s 已被应用于"{itemName} §r* {amount}", 添加失败'
+      no_item: 主手没有物品
+  get:
+    no_item: 没有名为"%s"的物品
+    success: 成功给予 {itemName} §r* {amount}
+  set:
+    success: 成功设置 {itemName} §r* {amount} 在等级 %d 掉落， 权重： %d
+    no_item: 没有名为"%s"的物品
+imi:
+  state_all: §a将接收全部击杀广播
+  state_self: §a仅接收自己的击杀广播
+  state_off: §a不接收任何击杀广播
+  state_near: §a将接收附近的击杀广播
+inspect:
+  level:
+    success: 查询成功
+    no_level: 等级 %d 不存在或无掉落
+    info: '{itemName} §r* {amount}, 权重 %d, 动态掉落: %b'
+  item:
+    no_item: 没有名为"%s"的物品
+    success: '{itemName} * {amount}, 权重 %d, 动态掉落: %b'
+  error:
+    invalid_action: 未知命令 %s
 message:
   error:
-    special_drop: 没有特殊掉落提示信息，请联系管理员
     drop: 没有掉落提示信息，请联系管理员
+    special_drop: 没有特殊掉落提示信息，请联系管理员
   stuck: §6你被定身了，不能移动或传送
+manual:
+  no_description: No description
+  no_usage: No usage
 damage:
   mob_hurt: §e§l-%%.2f

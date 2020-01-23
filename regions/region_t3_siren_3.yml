@@ -9,7 +9,6 @@ region:
   zMax: -636
   zMin: -680
 mobs:
-- mob-t3mage-bonus-cod:100
-- mob-t3mage-3-bubble:20
+- mob-t3mage-3-bubble:100
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

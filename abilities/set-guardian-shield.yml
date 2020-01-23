@@ -11,7 +11,7 @@ abilities:
       amount: 10
       extraData: ''
       forced: false
-    duration: 80
+    duration: 160
     resistance: 95.0
     thornsPercentage: 100.0
     delay: 30

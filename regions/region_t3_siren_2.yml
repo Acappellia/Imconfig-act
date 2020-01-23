@@ -9,8 +9,8 @@ region:
   zMax: -601
   zMin: -716
 mobs:
-- mob-t3mage-2-drowned:100
 - mob-t3mage-2-fish-3:100
-- mob-t3mage-bonus-cod:100
+- mob-t3mage-2-drowned:50
+- mob-t3mage-bonus-cod:50
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

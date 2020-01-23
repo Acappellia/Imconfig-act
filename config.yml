@@ -47,5 +47,7 @@ worlds:
       __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$BroadcastConfig
       default: NEARBY
       range: 64
+    despawnRange: 128.0
 GetDropMessageFeedback: false
 groupShareRange: 50
+enableActionbarInfo: true

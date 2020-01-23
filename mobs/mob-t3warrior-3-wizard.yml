@@ -6,7 +6,7 @@ abilities:
 - set-wizard-meteor
 - set-wizard-shingeki
 - set-shulker-shoot-1
-nbttags: ''
+nbttags: '{Attributes:[{Name:generic.knockbackResistance,Base:1}]}'
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false

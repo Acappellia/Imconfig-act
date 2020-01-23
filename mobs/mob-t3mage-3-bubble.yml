@@ -6,7 +6,8 @@ abilities:
 - set-fish-bubble-1
 - set-potionhit-breath-1
 - set-guardian-shield
-nbttags: ''
+- set-generic-resistance-1
+nbttags: '{Attributes:[{Name:generic.knockbackResistance,Base:1}]}'
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false
