@@ -50,4 +50,4 @@ worlds:
     despawnRange: 128.0
 GetDropMessageFeedback: false
 groupShareRange: 50
-enableActionbarInfo: true
+enableActionbarInfo: false
