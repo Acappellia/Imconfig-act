@@ -3,7 +3,7 @@ type: SPIDER
 abilities:
 - set-generic-spawn
 - set-spider-spit-1
-nbttags: '{Health:2000f,Attributes:[{Name:generic.movementSpeed,Base:0.25},{Name:generic.maxHealth,Base:2000}]}'
+nbttags: '{Health:20000f,Attributes:[{Name:generic.movementSpeed,Base:0.25},{Name:generic.maxHealth,Base:20000}]}'
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false
