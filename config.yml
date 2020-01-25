@@ -51,3 +51,4 @@ worlds:
 GetDropMessageFeedback: false
 groupShareRange: 50
 enableActionbarInfo: false
+groupCapacity: 8

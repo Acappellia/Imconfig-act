@@ -84,6 +84,11 @@ items:
     nbt: eJxjZGBgFGZmkMurTExMzi9Kjc8sSc0tLklMzo5PSSxJLEstKs7Mz2Ng4NjMwcCUmcIglZuZl5pclJhWYpWRmlhUEp+fFl+SkRpfnJrIyMDqnF+aV8LIxcBckpjOxcCekllckJNYycnA4gM0moOBgYGFwbRaqSS1okTJSunQcvMne/Y82dn3ctaEF9P7n+xqezZ/wvPlvS+Wd75sm/RkZ/fTrtmHtoOgUi0DN1wbkKOAZEbRi8aeJztmvd8z69DyxGc7djzZtwBdxfMpK57s6nvase3J3jnP1i57OnOFUi0HA4tfYm4qgwiSwtSXOzc8n7MHqJ2BAQBPrHW5
     name: special-archer-3
     dynamic: false
+  award-coin-20:
+    __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
+    nbt: eJxjZGBg2M/MIJdXmZiYnF+UGp9ZkppbXJKYnB2fkliSWJZaVJyZn8fAwLGZg4EpM4VBPDczLzW5KDGtxCotsyi1PL8oOx6ovIiRgdU5vzSvRISLgbkkMZ2LgT0ls7ggJ7GSk4HFB2guB9AeRgb9aqWS1IoSJSulQ8vTni6Z9WTHqqfz+15ObX+yd//zKSuez2p52TALyHixZfnTHY1KtRwMLH6JuakMUkj6zJ/saHg2rf3pkuUvJ21UqgWaCwBg5kzd
+    name: award-coin-20
+    dynamic: false
   special-rabbit-1:
     __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
     nbt: eJxjZGBgZGNmkMurTExMzi9Kjc8sSc0tLklMzo5PSSxJLEstKs7Mz2Ng4NjMwcCUmcIgmpuZl5pclJhWYlWUmJSUWRKflp9fwsjA6pxfmlfCyMXAXJKYzsUgFFCalJOZ7FSanZ1ZEpaYU5pazMXAW1SQDjbeKje1JJGZQRDOB5HxpZkp66zOnmdgYGbg9MhMSXXLSUwvZmBgYOJiYE/JLC7ISazkZGDxATqSAyjKyKBZrVSSWlGiZKV0aHnakx0NLxsnP1237em03c86tj+bOfn5rJbn+/peLp6vVMvBwOKXmJvKIIWkw+x509rnzUuetk550bpfqRZoIgCmPGBC

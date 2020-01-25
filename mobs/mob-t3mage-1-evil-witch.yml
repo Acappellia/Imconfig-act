@@ -2,11 +2,12 @@ name: 巫毒药剂师
 type: WITCH
 abilities:
 - set-generic-spawn
-- set-summon-effect-poison
-- set-summon-effect-wither
 - set-potionhit-poison-2
 - set-potionhit-wither-2
 - set-mage-beam-1
+- set-summon-effect-wither
+- set-summon-effect-wither
+- set-summon-effect-poison
 nbttags: ''
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
