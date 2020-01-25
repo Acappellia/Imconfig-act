@@ -5,7 +5,7 @@ abilities:
 - set-potionhit-damageresistance-1
 - set-golem-frost-beam-1
 - set-potionhit-weakness-1
-nbttags: '{Attributes:[{Name:generic.movementSpeed,Base:0.3}]}'
+nbttags: '{Attributes:[{Name:generic.movementSpeed,Base:0.3},{Name:generic.knockbackResistance,Base:1}]}'
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false
