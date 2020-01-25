@@ -3,7 +3,7 @@ type: ZOMBIE
 abilities:
 - set-generic-spawn
 - set-potionhit-wither-1
-nbttags: 'Health:2000f,{Attributes:[{Name:generic.movementSpeed,Base:0.32},{Name:generic.maxHealth,Base:2000}],HandItems:[{id:"minecraft:iron_sword",Count:1b,tag:{display:{Name:"{\"text\":\"特种作战匕首\",\"color\":\"gray\"}"}}},{}],HandDropChances:[-327.67F,0.85F],ArmorItems:[{id:"minecraft:iron_boots",Count:1b},{id:"minecraft:iron_leggings",Count:1b},{id:"minecraft:iron_chestplate",Count:1b},{id:"minecraft:iron_helmet",Count:1b}],ArmorDropChances:[-327.67F,-327.67F,-327.67F,-327.67F]}'
+nbttags: '{Health:2000f,Attributes:[{Name:generic.movementSpeed,Base:0.32},{Name:generic.maxHealth,Base:2000}],HandItems:[{id:"minecraft:iron_sword",Count:1b,tag:{display:{Name:"{\"text\":\"特种作战匕首\",\"color\":\"gray\"}"}}},{}],HandDropChances:[-327.67F,0.85F],ArmorItems:[{id:"minecraft:iron_boots",Count:1b},{id:"minecraft:iron_leggings",Count:1b},{id:"minecraft:iron_chestplate",Count:1b},{id:"minecraft:iron_helmet",Count:1b}],ArmorDropChances:[-327.67F,-327.67F,-327.67F,-327.67F]}'
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false

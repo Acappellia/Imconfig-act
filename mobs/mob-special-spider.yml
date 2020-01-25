@@ -1,9 +1,9 @@
-name: 猎犬S pro max ++
-type: WOLF
+name: 黑寡妇
+type: SPIDER
 abilities:
 - set-generic-spawn
-- set-potionself-speed-1
-nbttags: '{Health:2000f,Attributes:[{Name:generic.movementSpeed,Base:0.4},{Name:generic.maxHealth,Base:2000}]}'
+- set-spider-spit-1
+nbttags: '{Health:2000f,Attributes:[{Name:generic.movementSpeed,Base:0.25},{Name:generic.maxHealth,Base:2000}]}'
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: false
