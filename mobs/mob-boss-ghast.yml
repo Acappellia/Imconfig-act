@@ -2,7 +2,7 @@ name: 真·地狱轰炸机
 type: GHAST
 abilities:
 - set-generic-spawn
-- set-mage-fire-1
+- set-boss-fire
 - set-mage-meteor-1
 - set-potionhit-damageresistance-2
 - set-potionhit-blindness-1
