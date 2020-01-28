@@ -1,0 +1,31 @@
+name: 真·地狱轰炸机
+type: GHAST
+abilities:
+- set-generic-spawn
+- set-mage-fire-1
+- set-mage-meteor-1
+- set-potionhit-damageresistance-2
+- set-potionhit-blindness-1
+- set-wizard-shingeki
+nbttags: '{Tags:["boss"],Health:200000f,Attributes:[{Name:generic.maxHealth,Base:200000},{Name:generic.knockbackResistance,Base:1},{Name:generic.armor,Base:30},{Name:generic.armorToughness,Base:20}]}'
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: false
+  weight: 50
+  levels:
+  - '40'
+  worlds:
+  - nanospace
+  biomes: []
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 100.0
+    list:
+    - special-warrior-4:100
+    - special-archer-4:100
+    - special-mage-4:100
+  expOverride: -1
