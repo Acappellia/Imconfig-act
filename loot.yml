@@ -159,10 +159,20 @@ items:
     nbt: eJxjZGBg2MLMIJdXmZiYnF+UGp9ZkppbXJKYnB2fkliSWJZaVJyZn8fAwBbPwcCUmcIgnpuZl5pclJhWYpWWWZRanl+UHQ9UXsTIwOqcX5pXwsjFwFySmM7FwJ6SWVyQk1jJycDiAzSXA2gPI4PKoeVpT5fMerJj1dP5fS+ntj/Zu//5lBXPZ7W8bJgFZLzYsvzpjkYOBha/xNxUBqlqpZLUihIlK6VDy82f7Gh4Nq396ZLlLydtVKoFGgYAf69I3w==
     name: generic-coin-1
     dynamic: false
+  award-d3-1:
+    __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
+    nbt: eJxjZGBgeM7MIJdXmZiYnF+UGp9ZkppbXJKYnB2fkliSWJZaVJyZn8fAwLGZg4EpM4VBJDczLzW5KDGtxCqzKD8vPjMvPb+EkYHVOb80r4SFi4G5JDGdi4E9JbO4ICexkpOBxQdoKAfQEiYGi2qlktSKEiUrpUPLzV807326ZP6zBTuf9a57OafhxbLGpwsnPp3X/WTHric7ep9O6Hk+q+XZ3AkvtqxQqmVQQNKZ9nzKiie7+l5O3vGyYcHLGZuetm5XquVgYPFLzE1lkEJSmPhkx9qXM7a9XDvl+fz9QEMYGABbHGSl
+    name: award-d3-1
+    dynamic: false
   generic-apple-3:
     __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
     nbt: eJxjZGBgeMPMIJdXmZiYnF+UGp9ZkppbXJKYnB2fkliSWJZaVJyZn8fAwLGZg4EpM4VBITczLzW5KDGtxCo1LzkjMa8kNSU+PT8nJTUvPrGgICeVkYHVOb80r4SRi4G5JDGdi4E9JbO4ICexkpOBxQdoAQfQQiYGtWqlktSKEiUrpUPLzV9M3fJ0wurncxueTmt51rjtyY6+ZzN3PWtdrlTLoICkruj5lBVPdvU9Xbvsyc4Fz7oaXjTvVarlYGDxS8xNZVBFUpjyfM78Q9uf7Ol6PmXH09lrn89qedG989m8OUDzGBgAqj5kGg==
     name: generic-apple-3
+    dynamic: false
+  award-d3-2:
+    __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
+    nbt: eJxjZGBgeMDMIJdXmZiYnF+UGp9ZkppbXJKYnB2fkliSWJZaVJyZn8fAwLGZg4EpM4VBIDczLzW5KDGtxKqwNLGopIqRgdU5vzSvhImLgbkkMZ2LgT0ls7ggJ7GSk4HFB2ggB9ACJgbTaqWS1IoSJSulQ8vNXyxveTZ1y/NZLc9mbnuyd/LTntYXi3c+n9vwdPuKp0uWA8VfNO992d6vVMuggKQt7fmUFU929T1du+zJzgXPuhqAipRqORhY/BJzUxmkkBRaPtmx9uWMbS/XTgGaDzSEgQEAh6hgkQ==
+    name: award-d3-2
     dynamic: false
   generic-apple-2:
     __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
