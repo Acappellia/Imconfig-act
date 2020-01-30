@@ -1,0 +1,23 @@
+name: Dimension Dominator JUAN
+type: EVOKER
+abilities:
+- set-generic-spawn
+nbttags: '{Tags:["boss"],Health:200000f,Attributes:[{Name:generic.maxHealth,Base:200000},{Name:generic.knockbackResistance,Base:1},{Name:generic.armor,Base:30},{Name:generic.armorToughness,Base:20}]}'
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: false
+  weight: 50
+  levels:
+  - '40'
+  worlds:
+  - nanospace
+  biomes: []
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: false
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 0.0
+    list: []
+  expOverride: -1

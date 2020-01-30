@@ -1,0 +1,19 @@
+abilities:
+  SpawnEffect:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilitySpawnEffect
+    particle:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: DRAGON_BREATH
+      deltaX: 0.0
+      deltaY: 0.0
+      deltaZ: 0.0
+      speed: 0.05
+      amount: 500
+      extraData: ''
+      forced: false
+    particleEnabled: true
+    soundEnabled: true
+    sound: ENTITY_LIGHTNING_BOLT_IMPACT
+    pitch: 0.5
+    volume: 1.0
+weight: 5
