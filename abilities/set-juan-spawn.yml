@@ -16,7 +16,7 @@ abilities:
     sound: ENTITY_LIGHTNING_BOLT_IMPACT
     pitch: 0.2
     volume: 1.0
-  SpawnEffect:
+  SpawnEffect-1:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilitySpawnEffect
     particle:
       __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
