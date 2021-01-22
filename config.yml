@@ -11,7 +11,7 @@ addEffects:
   dementia: effect:SLOW_DIGGING:10
   target_lost: effect:BLINDNESS:10
 worlds:
-  nanospace:
+  Rysnoaks:
     __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig
     disable-natural-spawning: true
     max-mob-per-player: 3
