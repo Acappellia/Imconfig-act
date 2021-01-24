@@ -1,12 +1,12 @@
 level: 1
-prefix: '&7下阶·甲'
+prefix: '1'
 attr:
   __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelAttr
-  health: 10.0
-  damage: 2.0
+  health: 200.0
+  damage: 7.0
   damageResist: 0.0
-  exp: 1
-  aggro: 40.0
+  exp: 0
+  aggro: 24.0
 spawnConfig:
   __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelSpawnConfig
   from: 125
