@@ -1,0 +1,8 @@
+abilities:
+  Immunity:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityImmunity
+    effects:
+    - CONFUSION
+    - BLINDNESS
+    - SLOW_DIGGING
+weight: 5

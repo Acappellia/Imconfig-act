@@ -1,5 +1,0 @@
-abilities:
-  Resistance:
-    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityResistance
-    percentile: 20.0
-weight: 5

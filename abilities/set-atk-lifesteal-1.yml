@@ -1,0 +1,23 @@
+abilities:
+  LifeSteal:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityLifesteal
+    suck: 6.0
+    gain: 5.0
+  SkillEffect:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySkillEffect
+    particle:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: HEART
+      deltaX: 0.2
+      deltaY: 0.5
+      deltaZ: 0.2
+      speed: 0.0
+      amount: 5
+      extraData: ''
+      forced: false
+    particleEnabled: true
+    soundEnabled: true
+    sound: ENTITY_SILVERFISH_AMBIENT
+    pitch: 0.5
+    volume: 1.0
+weight: 5

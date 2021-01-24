@@ -1,0 +1,42 @@
+abilities:
+  Beam:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityBeam
+    length: 32
+    particle:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: REDSTONE
+      deltaX: 0.0
+      deltaY: 0.0
+      deltaZ: 0.0
+      speed: 0.0
+      amount: 1
+      extraData: 64,255,64,1.0
+      forced: false
+    speed: 20.0
+    spawnsPerBlock: 8.0
+    cone: 2.0
+    pierce: false
+    ignoreWall: false
+    range: 24.0
+    damageMultiplier: 1.0
+    burst: 3
+    burstInterval: 1
+    aimAtTarget: true
+  SkillEffect:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySkillEffect
+    particle:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: CRIT
+      deltaX: 0.2
+      deltaY: 0.5
+      deltaZ: 0.2
+      speed: 0.1
+      amount: 100
+      extraData: ''
+      forced: false
+    particleEnabled: false
+    soundEnabled: true
+    sound: ENTITY_LLAMA_SPIT
+    pitch: 0.7
+    volume: 1.0
+weight: 5

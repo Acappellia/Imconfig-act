@@ -1,0 +1,19 @@
+abilities:
+  SpawnEffect:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilitySpawnEffect
+    particle:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: SOUL
+      deltaX: 0.5
+      deltaY: 1.0
+      deltaZ: 0.5
+      speed: 0.0
+      amount: 10
+      extraData: ''
+      forced: false
+    particleEnabled: true
+    soundEnabled: true
+    sound: PARTICLE_SOUL_ESCAPE
+    pitch: 1.0
+    volume: 6.0
+weight: 5
