@@ -3,7 +3,7 @@ prefix: '1'
 attr:
   __class__: cat.nyaa.infiniteinfernal.configs.LevelConfig$LevelAttr
   health: 1750.0
-  damage: 17.0
+  damage: 11.33
   damageResist: 0.0
   exp: 0
   aggro: 24.0

@@ -1,0 +1,25 @@
+name: 巨大蜘蛛
+type: SPIDER
+abilities:
+- set-spawn-1
+- set-atk-sprayvenon-2
+- set-hit-poison-1
+- set-immune-poison
+nbttags: '{Health:1350f,Attributes:[{Name:generic.max_health,Base:1350},{Name:generic.knockback_resistance,Base:0.5}]}'
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 100
+  levels:
+  - '3'
+  worlds: []
+  biomes: []
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special: 
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 100.0
+    list: []
+  expOverride: -1

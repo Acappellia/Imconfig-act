@@ -1,0 +1,21 @@
+name: 傀儡
+type: IRON_GOLEM
+abilities: []
+nbttags: '{ActiveEffects:[{Id:6b,Amplifier:15b,Duration:20000000,ShowParticles:0b}],NoAI:1b,Health:204800f,Tags:["golem"],Attributes:[{Name:generic.maxHealth,Base:204800}]}'
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: false
+  weight: 100
+  levels:
+  - '1'
+  worlds: []
+  biomes: []
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: false
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 0.0
+    list: []
+  expOverride: -1

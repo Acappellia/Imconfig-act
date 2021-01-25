@@ -10,16 +10,16 @@ abilities:
       deltaZ: 0.0
       speed: 0.0
       amount: 1
-      extraData: 255,255,255,0.3
+      extraData: 0,0,0,0.5
       forced: false
-    speed: 60.0
+    speed: 40.0
     spawnsPerBlock: 8.0
     cone: 1.0
     pierce: false
     ignoreWall: false
     range: 24.0
     damageMultiplier: 1.0
-    burst: 5
+    burst: 1
     burstInterval: 10
     aimAtTarget: true
   SkillEffect:
@@ -36,7 +36,7 @@ abilities:
       forced: false
     particleEnabled: true
     soundEnabled: true
-    sound: ENTITY_FIREWORK_ROCKET_TWINKLE
+    sound: BLOCK_BEACON_DEACTIVATE
     pitch: 2.0
     volume: 1.0
 weight: 5

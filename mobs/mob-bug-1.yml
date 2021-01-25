@@ -1,0 +1,24 @@
+name: 硬化盗宝虫
+type: SILVERFISH
+abilities:
+- set-spawn-1
+- set-hit-poison-1
+- set-immune-poison
+nbttags: '{Attributes:[{Name:generic.knockback_resistance,Base:0.5}]}'
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 100
+  levels:
+  - '1'
+  worlds: []
+  biomes: []
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special: 
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 25.0
+    list: []
+  expOverride: -1

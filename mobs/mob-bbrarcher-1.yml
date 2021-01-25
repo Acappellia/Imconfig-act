@@ -1,0 +1,23 @@
+name: 兵兵人射手
+type: SKELETON
+abilities:
+- set-spawn-1
+- set-atk-arrow-1
+nbttags: '{HandItems:[{id:"minecraft:crossbow",Count:1b},{}],HandDropChances:[0.000F,0.000F],ArmorItems:[{},{},{},{id:"minecraft:chainmail_helmet",Count:1b}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],Attributes:[{Name:generic.knockback_resistance,Base:0.5}]}'
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 100
+  levels:
+  - '1'
+  worlds: []
+  biomes: []
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special: 
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 25.0
+    list: []
+  expOverride: -1

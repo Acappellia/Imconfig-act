@@ -1,7 +1,7 @@
 abilities:
   Summon:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySummon
-    nbt: '{Health:400f,ActiveEffects:[{Id:11b,Amplifier:9b,Duration:600,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:400},{Name:generic.knockback_resistance,Base:5},{Name:generic.attack_damage,Base:15}]}'
+    nbt: '{Health:400f,ActiveEffects:[{Id:11b,Amplifier:9b,Duration:600,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:400},{Name:generic.knockback_resistance,Base:0.5},{Name:generic.attack_damage,Base:15}]}'
     amount: 2
     radius: 24.0
     type: VINDICATOR

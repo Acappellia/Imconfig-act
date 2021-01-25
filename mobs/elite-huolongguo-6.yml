@@ -1,0 +1,23 @@
+name: o火龙果o
+type: POLAR_BEAR
+abilities:
+- set-spawn-1
+- set-atk-hairdrier-1
+nbttags: '{Health:5250f,Attributes:[{Name:generic.max_health,Base:5250},{Name:generic.movement_speed,Base:0.4},{Name:generic.knockback_resistance,Base:1}]}'
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 100
+  levels:
+  - '6'
+  worlds: []
+  biomes: []
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special: 
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 100.0
+    list: []
+  expOverride: -1

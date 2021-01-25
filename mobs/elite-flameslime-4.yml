@@ -1,0 +1,24 @@
+name: 烈火史莱姆
+type: MAGMA_CUBE
+abilities:
+- set-spawn-1
+- set-hit-fire-2
+- set-atk-sprayfire-1
+nbttags: '{Size:4,Health:2040f,Attributes:[{Name:generic.knockback_resistance,Base:0.5},{Name:generic.max_health,Base:2940}]}'
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 100
+  levels:
+  - '4'
+  worlds: []
+  biomes: []
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special: 
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 100.0
+    list: []
+  expOverride: -1
