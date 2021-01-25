@@ -86,18 +86,18 @@ map:
   level-4:
     __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
     weightMap:
-      generic-kera-6: 20
-      generic-kera-7: 80
+      generic-kara-6: 20
+      generic-kara-7: 80
   level-5:
     __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
     weightMap:
-      generic-coin-10: 20
-      generic-coin-11: 60
-      generic-coin-12: 20
+      generic-kara-10: 20
+      generic-kara-11: 60
+      generic-kara-12: 20
   level-6:
     __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
     weightMap:
-      generic-coin-16: 10
-      generic-coin-17: 40
-      generic-coin-18: 40
-      generic-coin-19: 10
+      generic-kara-16: 10
+      generic-kara-17: 40
+      generic-kara-18: 40
+      generic-kara-19: 10
