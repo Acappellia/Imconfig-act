@@ -14,12 +14,12 @@ abilities:
       forced: false
     speed: 20.0
     spawnsPerBlock: 8.0
-    cone: 2.0
+    cone: 5.0
     pierce: false
     ignoreWall: false
     range: 24.0
     damageMultiplier: 1.0
-    burst: 3
+    burst: 5
     burstInterval: 1
     aimAtTarget: true
   SkillEffect:

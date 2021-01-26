@@ -7,7 +7,11 @@ abilities:
 - set-hit-wither-1
 - set-immune-poison
 - set-immune-wither
+- set-hit-knockback-1
 nbttags: '{Health:4950f,Attributes:[{Name:generic.max_health,Base:4950},{Name:generic.knockback_resistance,Base:1},{Name:generic.movement_speed,Base:0.4},{Name:generic.attack_damage,Base:17}]}'
+healthOverride: -1.0
+enableDynamicHealth: false
+dynamicHealthExpression: ''
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: true
@@ -20,7 +24,7 @@ loot:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
   vanilla: false
   imLoot: true
-  special: 
+  special:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
     chance: 100.0
     list: []

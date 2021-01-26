@@ -3,6 +3,9 @@ type: RABBIT
 abilities:
 - set-spawn-1
 nbttags: '{RabbitType:99,Attributes:[{Name:generic.knockback_resistance,Base:0.5}]}'
+healthOverride: -1.0
+enableDynamicHealth: false
+dynamicHealthExpression: ''
 spawn:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
   autoSpawn: true
@@ -15,7 +18,7 @@ loot:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
   vanilla: false
   imLoot: true
-  special: 
+  special:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
     chance: 25.0
     list: []

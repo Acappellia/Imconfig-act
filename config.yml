@@ -13,11 +13,13 @@ addEffects:
 worlds:
   Rysnoaks:
     __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig
+    enabled: true
     disable-natural-spawning: true
     max-mob-per-player: 3
     max-mob-in-world: 160
     spawn-range-min: 10
     spawn-range-max: 24
+    spawn-interval: 20
     mob-active-interval: 60
     aggro:
       __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$AggroConfig
@@ -35,10 +37,12 @@ worlds:
         __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$LootingConfig$LootingModifiers
         inc: []
         dec: []
+        max: 100.0
       dynamic:
         __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$LootingConfig$LootingModifiers
         inc: []
         dec: []
+        max: 100.0
     friendlyfire:
       __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$FriendlyFireConfig
       enable: false
@@ -47,8 +51,36 @@ worlds:
       __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig$BroadcastConfig
       default: NEARBY
       range: 64
+    enableTrueDamage: true
+    trueDamage:
+      wither: 1.0
+      poison: 1.0
+      fire_tick: 1.0
+      fire: 2.0
+      lava: 4.0
+      lightning: 1.0
+      magic: -1.01
+      suffocation: 1.0
+      void: 4.0
+      drowning: 2.0
+      hot_floor: 1.0
+      starvation: 1.0
+      dragon_breath: 1.0
+      contact: 1.0
     despawnRange: 128.0
 GetDropMessageFeedback: false
 groupShareRange: 50
 enableActionbarInfo: false
 groupCapacity: 8
+player:
+  base:
+    mana: 20.0
+    rage: 100.0
+enabled: true
+dps:
+  title: '&aDPS: &c{dps} &atotal: &c{total} &amax: &c{max}'
+  default:
+    health: 2048.0
+  refresh_interval: 200
+  entity_tag: ''
+mobParticle: LAVA

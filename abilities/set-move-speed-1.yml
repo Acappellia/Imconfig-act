@@ -13,12 +13,12 @@ abilities:
       forced: false
     particleEnabled: true
     soundEnabled: true
-    sound: ENTITY_SHULKER_TELEPORT
-    pitch: 1.2
+    sound: ENTITY_ARROW_SHOOT
+    pitch: 0.5
     volume: 1.0
   PotionSelf:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityPotionSelf
     effect: SPEED
-    duration: 10
+    duration: 6
     amplifier: 7
 weight: 5

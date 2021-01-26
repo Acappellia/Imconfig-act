@@ -37,6 +37,6 @@ abilities:
     particleEnabled: false
     soundEnabled: true
     sound: ITEM_BUCKET_EMPTY_FISH
-    pitch: 0
+    pitch: 0.0
     volume: 1.0
 weight: 5

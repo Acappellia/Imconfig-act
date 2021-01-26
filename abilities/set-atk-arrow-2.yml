@@ -21,7 +21,7 @@ abilities:
     range: 64
     speed: 3.0
     projectile: Arrow
-    cone: 1
+    cone: 1.0
     gravity: true
     burstCount: 3
     burstInterval: 1

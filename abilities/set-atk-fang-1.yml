@@ -1,14 +1,14 @@
 abilities:
   Fang:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityFang
+    range: 24.0
+    cone: 3.0
+    spawnAmount: 4
+    damageAmplifier: 1.0
+    castToAllNearbyChance: 0.0
+    spawnInterval: 0
     burst: 1
     burstInterval: 10
-    castToAllNearbyChance: 0
-    cone: 3.0
-    damageAmplifier: 1.0
-    range: 24
-    spawnAmount: 4
-    spawnInterval: 0
   SkillEffect:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySkillEffect
     particle:
