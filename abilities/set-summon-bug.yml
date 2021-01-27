@@ -1,7 +1,7 @@
 abilities:
   Summon:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySummon
-    nbt: '{Health:200f,ActiveEffects:[{Id:11b,Amplifier:9b,Duration:600,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:200},{Name:generic.knockback_resistance,Base:0.5},{Name:generic.attack_damage,Base:13}]}'
+    nbt: '{Health:200f,ActiveEffects:[{Id:11b,Amplifier:9b,Duration:60,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:200},{Name:generic.knockback_resistance,Base:0.5},{Name:generic.attack_damage,Base:13}]}'
     amount: 2
     radius: 24.0
     type: SILVERFISH
