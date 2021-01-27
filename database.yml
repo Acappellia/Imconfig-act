@@ -1,0 +1,5 @@
+backendConfig:
+  __class__: cat.nyaa.nyaacore.orm.backends.BackendConfig
+  provider: sqlite
+  sqlite_file: InfiniteInfernal.db
+databaseVersion: 0

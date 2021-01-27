@@ -73,31 +73,180 @@ map:
   level-1:
     __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
     weightMap:
-      generic-kara-2: 100
+      generic-coin-10: 100
   level-2:
     __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
     weightMap:
-      generic-kara-3: 100
+      generic-coin-10: 100
   level-3:
     __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
     weightMap:
-      generic-kara-4: 50
-      generic-kara-5: 50
-  level-4:
-    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
-    weightMap:
-      generic-kara-6: 20
-      generic-kara-7: 80
+      generic-coin-10: 50
   level-5:
     __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
     weightMap:
-      generic-kara-10: 20
-      generic-kara-11: 60
-      generic-kara-12: 20
+      generic-coin-10: 20
+  level-10:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-1: 100
+  level-29:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-2: 100
+  level-4:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-10: 80
   level-6:
     __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
     weightMap:
-      generic-kara-16: 10
-      generic-kara-17: 40
-      generic-kara-18: 40
-      generic-kara-19: 10
+      generic-coin-10: 10
+  level-7:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-1: 100
+  level-8:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-1: 100
+  level-40:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-3: 50
+      generic-coin-2: 50
+  level-20:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-2: 50
+      generic-coin-1: 50
+  level-9:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-1: 100
+  level-22:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-2: 50
+      generic-coin-1: 50
+  level-21:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-2: 50
+      generic-coin-1: 50
+  level-24:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-2: 50
+      generic-coin-1: 50
+  level-23:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-2: 50
+      generic-coin-1: 50
+  level-26:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-2: 100
+  level-25:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-2: 100
+  level-28:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-2: 100
+  level-27:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-2: 100
+  level-19:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-2: 50
+      generic-coin-1: 50
+  level-18:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-2: 50
+      generic-coin-1: 50
+  level-31:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-2: 100
+  level-30:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-2: 100
+  level-11:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-1: 100
+  level-33:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-3: 50
+      generic-coin-2: 50
+  level-32:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-2: 100
+  level-13:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-2: 50
+      generic-coin-1: 50
+  level-35:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-3: 50
+      generic-coin-2: 50
+  level-12:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-1: 100
+  level-34:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-3: 50
+      generic-coin-2: 50
+  level-15:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-2: 50
+      generic-coin-1: 50
+  level-37:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-3: 50
+      generic-coin-2: 50
+  level-14:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-2: 50
+      generic-coin-1: 50
+  level-36:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-3: 50
+      generic-coin-2: 50
+  level-17:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-2: 50
+      generic-coin-1: 50
+  level-39:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-3: 50
+      generic-coin-2: 50
+  level-16:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-2: 50
+      generic-coin-1: 50
+  level-38:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-coin-3: 50
+      generic-coin-2: 50
