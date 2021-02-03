@@ -12,7 +12,7 @@ spawn:
   weight: 100
   levels:
   - '1'
-  worlds: 
+  worlds:
   - Rysnoaks
   biomes: []
 loot:

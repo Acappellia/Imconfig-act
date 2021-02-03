@@ -178,4 +178,8 @@ map:
       generic-kara-17: 200
       generic-kara-18: 200
       generic-kara-19: 100
-      
+  loot-bbrskull:
+    __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
+    nbt: eJzF0jFLw0AUAOAXEzFm8Ac4ONzcX5DVVfwDIuUluaRHLzm5XKyhdBDs4GArOCgWVNRBuwkVJII/RpIG/4WZ0lpwbeGWd/d49717pwHong47UYroCkmbTNEwVui2mx4qPKYyZiICsLZNWGMebIUsoq5EX9mOiKgFusLAgg2PxUccUxOMfQwpjLqEniiJxD7oEkdwj9g+8pg2CFPImVuHSeRRyauas4xYSdamqiVFErTqXeH4Seyimkt0BReS2KTTqtCkQVR1ZRUW/fdq5VlW3p4Vz5Of8QvpHdanpLcJxl7VqQkABgxXCC3PX4ur0784uFgmKKWci85M9H3TX+BcL5MTSEznnudhUj4O/hkiPK0ONh19lZ/D4u0uzwbT+8v8Y1x/uQUkaLC+K5JIafALeGc9dQ==
+    name: loot-bbrskull
+    dynamic: false

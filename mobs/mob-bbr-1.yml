@@ -13,7 +13,7 @@ spawn:
   weight: 100
   levels:
   - '1'
-  worlds: 
+  worlds:
   - Rysnoaks
   biomes: []
 loot:
@@ -23,5 +23,6 @@ loot:
   special:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
     chance: 25.0
-    list: []
+    list:
+    - loot-bbrskull:100
   expOverride: -1
