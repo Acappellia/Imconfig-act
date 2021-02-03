@@ -15,7 +15,8 @@ spawn:
   weight: 100
   levels:
   - '5'
-  worlds: []
+  worlds: 
+  - Rysnoaks
   biomes: []
 loot:
   __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
