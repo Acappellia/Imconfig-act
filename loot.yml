@@ -144,6 +144,11 @@ items:
     nbt: eJy9Uk1rE0EYftONuF1RsUcPPQweG9CoSbonsVIFW/HkRSTM7rzZDDu7U2ZnraEUWmgoRUqFFqmg6MXqpV4UpOIP8axuQv6FU0N2a049CcPAO/PwfM2UAKxbFkzHHUp9qbDJNUaJpn7YZFTTp6gSLmMA57INE5zBhYjH6Cva0q4nZeiApWngwNTD1BPcv52GIdePqEgxceC8Wgr+0rkRamrBpXw+3pspZz827EVjACbvcYbzggYJAEzYObI5BBokXKENv369Xq1XarONWuXGVaxVPLzJKvSaN8uw2qhXW2jBxbk00TJalAzFHRPA8IEDZxlPlgTt2FB+QCOE/RWCz7SixH28QjwpGHFbVCQ4Q7imJkc+pjFDJUzkApFoxUPUbSXToJ2fSq+VJj7VJ4C+FFIRlwQKMSYzRBtJM/YOD7JXHwfd7d7Lo99HB2T1SX5FViehvGBewTauy7DzP10ut03XhcvB+m7W/fqvObh70tCYhxFPB4WQywXRz/2uWWNE/imIguPARWtv3/dfPx92l21v9r996H9513vz4tfa+rDK/uHWmMj904go2ilEsp3Pg71Pva3d7PvaGJkF50Z/cvRvS3BmTqaxLsEfvm4mkA==
     name: item-fusionbook
     dynamic: false
+  loot-bbrskull:
+    __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
+    nbt: eJzF0jFLw0AUAOAXEzFm8Ac4ONzcX5DVVfwDIuUluaRHLzm5XKyhdBDs4GArOCgWVNRBuwkVJII/RpIG/4WZ0lpwbeGWd/d49717pwHong47UYroCkmbTNEwVui2mx4qPKYyZiICsLZNWGMebIUsoq5EX9mOiKgFusLAgg2PxUccUxOMfQwpjLqEniiJxD7oEkdwj9g+8pg2CFPImVuHSeRRyauas4xYSdamqiVFErTqXeH4Seyimkt0BReS2KTTqtCkQVR1ZRUW/fdq5VlW3p4Vz5Of8QvpHdanpLcJxl7VqQkABgxXCC3PX4ur0784uFgmKKWci85M9H3TX+BcL5MTSEznnudhUj4O/hkiPK0ONh19lZ/D4u0uzwbT+8v8Y1x/uQUkaLC+K5JIafALeGc9dQ==
+    name: loot-bbrskull
+    dynamic: false
 map: 
   level-1:
     __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
@@ -178,8 +183,3 @@ map:
       generic-kara-17: 200
       generic-kara-18: 200
       generic-kara-19: 100
-  loot-bbrskull:
-    __class__: cat.nyaa.infiniteinfernal.loot.CommonLootItem
-    nbt: eJzF0jFLw0AUAOAXEzFm8Ac4ONzcX5DVVfwDIuUluaRHLzm5XKyhdBDs4GArOCgWVNRBuwkVJII/RpIG/4WZ0lpwbeGWd/d49717pwHong47UYroCkmbTNEwVui2mx4qPKYyZiICsLZNWGMebIUsoq5EX9mOiKgFusLAgg2PxUccUxOMfQwpjLqEniiJxD7oEkdwj9g+8pg2CFPImVuHSeRRyauas4xYSdamqiVFErTqXeH4Seyimkt0BReS2KTTqtCkQVR1ZRUW/fdq5VlW3p4Vz5Of8QvpHdanpLcJxl7VqQkABgxXCC3PX4ur0784uFgmKKWci85M9H3TX+BcL5MTSEznnudhUj4O/hkiPK0ONh19lZ/D4u0uzwbT+8v8Y1x/uQUkaLC+K5JIafALeGc9dQ==
-    name: loot-bbrskull
-    dynamic: false
