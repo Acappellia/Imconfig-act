@@ -144,4 +144,38 @@ items:
     nbt: eJy9Uk1rE0EYftONuF1RsUcPPQweG9CoSbonsVIFW/HkRSTM7rzZDDu7U2ZnraEUWmgoRUqFFqmg6MXqpV4UpOIP8axuQv6FU0N2a049CcPAO/PwfM2UAKxbFkzHHUp9qbDJNUaJpn7YZFTTp6gSLmMA57INE5zBhYjH6Cva0q4nZeiApWngwNTD1BPcv52GIdePqEgxceC8Wgr+0rkRamrBpXw+3pspZz827EVjACbvcYbzggYJAEzYObI5BBokXKENv369Xq1XarONWuXGVaxVPLzJKvSaN8uw2qhXW2jBxbk00TJalAzFHRPA8IEDZxlPlgTt2FB+QCOE/RWCz7SixH28QjwpGHFbVCQ4Q7imJkc+pjFDJUzkApFoxUPUbSXToJ2fSq+VJj7VJ4C+FFIRlwQKMSYzRBtJM/YOD7JXHwfd7d7Lo99HB2T1SX5FViehvGBewTauy7DzP10ut03XhcvB+m7W/fqvObh70tCYhxFPB4WQywXRz/2uWWNE/imIguPARWtv3/dfPx92l21v9r996H9513vz4tfa+rDK/uHWmMj904go2ilEsp3Pg71Pva3d7PvaGJkF50Z/cvRvS3BmTqaxLsEfvm4mkA==
     name: item-fusionbook
     dynamic: false
-map: {}
+map: 
+  level-1:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-kara-1: 100
+      generic-kara-2: 100
+  level-2:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-kara-2: 100
+      generic-kara-3: 100
+  level-3:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-kara-4: 100
+      generic-kara-5: 100
+  level-4:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-kara-6: 100
+      generic-kara-7: 400
+  level-5:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-kara-10: 100
+      generic-kara-11: 200
+      generic-kara-12: 100
+  level-6:
+    __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
+    weightMap:
+      generic-kara-16: 100
+      generic-kara-17: 200
+      generic-kara-18: 200
+      generic-kara-19: 100
+      

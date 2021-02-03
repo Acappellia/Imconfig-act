@@ -15,7 +15,7 @@ worlds:
     __class__: cat.nyaa.infiniteinfernal.configs.WorldConfig
     enabled: true
     disable-natural-spawning: true
-    max-mob-per-player: 3
+    max-mob-per-player: 5
     max-mob-in-world: 160
     spawn-range-min: 10
     spawn-range-max: 24
