@@ -53,20 +53,20 @@ worlds:
       range: 64
     enableTrueDamage: true
     trueDamage:
-      wither: 1.0
-      poison: 1.0
-      fire_tick: 1.0
-      fire: 2.0
-      lava: 4.0
+      wither: 0.0
+      poison: 0.0
+      fire_tick: 0.0
+      fire: 0.0
+      lava: 0.0
       lightning: 1.0
       magic: -1.01
       suffocation: 1.0
       void: 4.0
       drowning: 2.0
-      hot_floor: 1.0
-      starvation: 1.0
-      dragon_breath: 1.0
-      contact: 1.0
+      hot_floor: 0.0
+      starvation: 0.0
+      dragon_breath: 0.0
+      contact: 0.0
     despawnRange: 128.0
 GetDropMessageFeedback: false
 groupShareRange: 50
@@ -83,4 +83,4 @@ dps:
     health: 2048.0
   refresh_interval: 200
   entity_tag: ''
-mobParticle: LAVA
+mobParticle: SOUL_FIRE_FLAME
