@@ -1,0 +1,29 @@
+name: 寻宝幽灵
+type: VEX
+abilities:
+- set-spawn-1
+- set-hit-wither-1
+- set-hit-blind-1
+nbttags: '{Attributes:[{Name:generic.knockback_resistance,Base:0.5},{Name:generic.movement_speed,Base:0.4}]}'
+healthOverride: -1.0
+enableDynamicHealth: false
+dynamicHealthExpression: ''
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 100
+  levels:
+  - '4'
+  worlds:
+  - Rysnoaks
+  biomes: []
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 100.0
+    list: 
+    - generic-kara-12:
+  expOverride: -1

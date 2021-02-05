@@ -22,7 +22,7 @@ loot:
   imLoot: true
   special:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
-    chance: 25.0
+    chance: 10.0
     list:
     - loot-bbrskull:100
   expOverride: -1

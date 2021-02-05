@@ -25,6 +25,9 @@ loot:
   imLoot: true
   special:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
-    chance: 100.0
-    list: []
+    chance: 75.0
+    list: 
+    - loot-darkshadowdust:100
+    - loot-darkshadowsnowball:100
+    - loot-stealtpickledmeat:100
   expOverride: -1

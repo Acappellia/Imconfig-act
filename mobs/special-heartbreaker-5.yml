@@ -1,0 +1,37 @@
+name: 裂心者-伊露希亚
+type: WITCH
+abilities:
+- set-spawn-1
+- set-immune-poison
+- set-immune-slow
+- set-immune-wither
+- set-immune-mobdebuff
+- set-debuff-blind-1
+- set-debuff-slow-1
+- set-debuff-glow-1
+- set-atk-fang-1
+- set-atk-fang-1
+- set-atk-fang-1
+nbttags: '{Health:3800f,Attributes:[{Name:generic.knockback_resistance,Base:0.5},{Name:generic.max_health,Base:3800}]}'
+healthOverride: -1.0
+enableDynamicHealth: false
+dynamicHealthExpression: ''
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 100
+  levels:
+  - '5'
+  worlds:
+  - Rysnoaks
+  biomes: []
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 100.0
+    list: 
+    - loot-mindstaff:100
+  expOverride: -1

@@ -1,0 +1,26 @@
+name: 海盗小卒
+type: VINDICATOR
+abilities:
+- set-spawn-1
+nbttags: '{Attributes:[{Name:generic.knockback_resistance,Base:0.5}]}'
+healthOverride: 170
+enableDynamicHealth: false
+dynamicHealthExpression: ''
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 100
+  levels:
+  - '4'
+  worlds:
+  - Rysnoaks
+  biomes: []
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 0.0
+    list: []
+  expOverride: -1

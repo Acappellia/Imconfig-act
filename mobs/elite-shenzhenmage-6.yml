@@ -24,6 +24,9 @@ loot:
   imLoot: true
   special:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
-    chance: 100.0
-    list: []
+    chance: 75.0
+    list: 
+    - loot-wisdomkey:100
+    - loot-earthveinnewbud:100
+    - loot-drybranch:100
   expOverride: -1

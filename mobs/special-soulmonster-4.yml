@@ -1,0 +1,30 @@
+name: 穿魂兽
+type: RAVAGER
+abilities:
+- set-spawn-1
+- set-hit-blind-1
+- set-immune-mobdebuff
+- set-move-speed-1
+nbttags: '{Health:3060f,Attributes:[{Name:generic.max_health,Base:3060},{Name:generic.knockback_resistance,Base:1},{Name:generic.movement_speed,Base:0.4},{Name:generic.attack_damage,Base:15}]}'
+healthOverride: -1.0
+enableDynamicHealth: false
+dynamicHealthExpression: ''
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 100
+  levels:
+  - '4'
+  worlds:
+  - Rysnoaks
+  biomes: []
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 100.0
+    list: 
+    - loot-spellneedle:100
+  expOverride: -1

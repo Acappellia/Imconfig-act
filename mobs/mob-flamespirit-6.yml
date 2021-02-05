@@ -1,0 +1,28 @@
+name: 烈火精灵
+type: BLAZE
+abilities:
+- set-spawn-1
+- set-hit-knockback-2
+nbttags: '{Attributes:[{Name:generic.knockback_resistance,Base:0.5}]}'
+healthOverride: -1.0
+enableDynamicHealth: false
+dynamicHealthExpression: ''
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 100
+  levels:
+  - '6'
+  worlds:
+  - Rysnoaks
+  biomes: []
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 35.0
+    list: 
+    - loot-flameessence:100
+  expOverride: -1
