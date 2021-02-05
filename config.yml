@@ -83,4 +83,12 @@ dps:
     health: 2048.0
   refresh_interval: 200
   entity_tag: ''
-mobParticle: SOUL_FIRE_FLAME
+mobParticle:
+  __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+  type: LAVA
+  deltaX: 0.0
+  deltaY: 0.0
+  deltaZ: 0.0
+  speed: 0.0
+  amount: 10
+  forced: false
