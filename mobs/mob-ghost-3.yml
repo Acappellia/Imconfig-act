@@ -25,5 +25,5 @@ loot:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
     chance: 100.0
     list: 
-    - generic-kara-8:
+    - generic-kara-8:100
   expOverride: -1
