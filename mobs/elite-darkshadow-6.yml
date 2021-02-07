@@ -26,7 +26,7 @@ loot:
   special:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
     chance: 75.0
-    list: 
+    list:
     - loot-darkshadowdust:100
     - loot-darkshadowsnowball:100
     - loot-stealtpickledmeat:100

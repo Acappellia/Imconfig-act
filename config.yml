@@ -67,6 +67,17 @@ worlds:
       starvation: 0.0
       dragon_breath: 0.0
       contact: 0.0
+    spawn:
+      light:
+        sky:
+          min: 1
+          max: 15
+        block:
+          min: 1
+          max: 15
+        total:
+          min: 1
+          max: 15
     despawnRange: 128.0
 GetDropMessageFeedback: false
 groupShareRange: 50

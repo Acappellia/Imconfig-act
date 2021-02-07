@@ -3,7 +3,7 @@ type: ZOMBIE
 abilities:
 - set-spawn-1
 nbttags: '{HandItems:[{id:"minecraft:iron_sword",Count:1b},{id:"minecraft:shield",Count:1b}],HandDropChances:[0.000F,0.000F],ArmorItems:[{},{},{},{id:"minecraft:chainmail_helmet",Count:1b}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],Attributes:[{Name:generic.movement_speed,Base:0.4},{Name:generic.knockback_resistance,Base:0.5}]}'
-healthOverride: 2700
+healthOverride: 2700.0
 enableDynamicHealth: false
 dynamicHealthExpression: ''
 spawn:
@@ -22,6 +22,6 @@ loot:
   special:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
     chance: 100.0
-    list: 
+    list:
     - loot-giantskull:100
   expOverride: -1

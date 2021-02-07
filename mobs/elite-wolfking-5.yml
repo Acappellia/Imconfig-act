@@ -25,7 +25,7 @@ loot:
   special:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
     chance: 60.0
-    list: 
+    list:
     - loot-sharpclaw:100
     - loot-wolfkingfeather:100
   expOverride: -1

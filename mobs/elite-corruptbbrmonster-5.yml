@@ -28,7 +28,7 @@ loot:
   special:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
     chance: 60.0
-    list: 
+    list:
     - loot-corruptedblackjuanhorn:100
     - loot-monstereye:100
   expOverride: -1

@@ -3,7 +3,7 @@ type: WOLF
 abilities:
 - set-spawn-1
 nbttags: '{Attributes:[{Name:generic.knockback_resistance,Base:0.5},{Name:generic.movement_speed,Base:0.3}]}'
-healthOverride: 50
+healthOverride: 50.0
 enableDynamicHealth: false
 dynamicHealthExpression: ''
 spawn:

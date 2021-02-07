@@ -3,7 +3,7 @@ type: VINDICATOR
 abilities:
 - set-spawn-1
 nbttags: '{Attributes:[{Name:generic.knockback_resistance,Base:0.5}]}'
-healthOverride: 275
+healthOverride: 275.0
 enableDynamicHealth: false
 dynamicHealthExpression: ''
 spawn:

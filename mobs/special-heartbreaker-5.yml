@@ -32,6 +32,6 @@ loot:
   special:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
     chance: 100.0
-    list: 
+    list:
     - loot-mindstaff:100
   expOverride: -1
