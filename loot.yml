@@ -520,32 +520,32 @@ map:
     weightMap:
       generic-kara-1: 100
       generic-kara-2: 100
-      case-armor-1: 1
+      case-armor-1: 5
   level-5:
     __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
     weightMap:
       generic-kara-10: 100
       generic-kara-11: 200
       generic-kara-12: 100
-      case-armor-5: 2
+      case-armor-5: 10
   level-2:
     __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
     weightMap:
       generic-kara-2: 100
       generic-kara-3: 100
-      case-armor-2: 1
+      case-armor-2: 5
   level-3:
     __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
     weightMap:
       generic-kara-4: 100
       generic-kara-5: 100
-      case-armor-3: 1
+      case-armor-3: 5
   level-4:
     __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
     weightMap:
       generic-kara-6: 100
       generic-kara-7: 300
-      case-armor-4: 2
+      case-armor-4: 10
   level-6:
     __class__: cat.nyaa.infiniteinfernal.configs.LootConfig$LootWeight
     weightMap:
@@ -553,4 +553,4 @@ map:
       generic-kara-17: 200
       generic-kara-18: 200
       generic-kara-19: 100
-      case-armor-6: 3
+      case-armor-6: 15
