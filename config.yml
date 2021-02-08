@@ -81,7 +81,7 @@ worlds:
     despawnRange: 128.0
 GetDropMessageFeedback: false
 groupShareRange: 50
-enableActionbarInfo: false
+enableActionbarInfo: true
 groupCapacity: 8
 player:
   base:

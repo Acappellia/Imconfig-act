@@ -8,6 +8,10 @@ region:
   yMin: 64
   zMax: 387
   zMin: 283
-mobs: []
+mobs:
+- basic-wolf-3:100
+- mob-wolf-3:25
+- mob-bbr-3:25
+- elite-giantspider-3:10
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

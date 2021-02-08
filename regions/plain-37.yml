@@ -8,6 +8,11 @@ region:
   yMin: 78
   zMax: 782
   zMin: 655
-mobs: []
+mobs:
+- basic-slime-6:100
+- mob-fireslime-6:25
+- mob-flamespirit-6:25
+- elite-shenzhenmage-6:10
+- elite-ruinguardian-6:3
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

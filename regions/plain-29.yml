@@ -8,6 +8,10 @@ region:
   yMin: 53
   zMax: 947
   zMin: 859
-mobs: []
+mobs:
+- basic-bbr-6:100
+- mob-bbrarcher-6:25
+- mob-bbrwarrior-6:25
+- elite-shenzhenmage-6:10
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

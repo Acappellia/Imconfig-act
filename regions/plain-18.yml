@@ -8,6 +8,9 @@ region:
   yMin: 69
   zMax: 138
   zMin: 68
-mobs: []
+mobs:
+- basic-slime-3:100
+- mob-slime-3:50
+- elite-giantspider-3:10
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

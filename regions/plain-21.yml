@@ -8,6 +8,9 @@ region:
   yMin: 60
   zMax: 146
   zMin: 5
-mobs: []
+mobs:
+- basic-wolf-5:100
+- mob-wolf-5:50
+- elite-wolfking-5:10
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

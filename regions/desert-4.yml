@@ -12,5 +12,6 @@ mobs:
 - mob-fireslime-4:25
 - basic-bug-4:100
 - mob-xxxmiguai-4:25
+- elite-bugmother-4:10
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

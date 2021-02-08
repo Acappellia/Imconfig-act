@@ -8,6 +8,10 @@ region:
   yMin: 64
   zMax: 15
   zMin: -86
-mobs: []
+mobs:
+- basic-pirate-6:100
+- mob-pirate-6:25
+- mob-piratearcher-6:25
+- elite-huolongguo-6:10
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

@@ -12,5 +12,6 @@ mobs:
 - basic-slime-3:100
 - mob-bbrarcher-3:25
 - mob-bbrwitch-3:25
+- elite-slimeking-3:10
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

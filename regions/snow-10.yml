@@ -8,6 +8,9 @@ region:
   yMin: 60
   zMax: -958
   zMin: -1056
-mobs: []
+mobs:
+- basic-slime-4:100
+- mob-fireslime-4:25
+- mob-xxxmiguai-4:25
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

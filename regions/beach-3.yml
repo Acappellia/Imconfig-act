@@ -8,6 +8,9 @@ region:
   yMin: 55
   zMax: 885
   zMin: 838
-mobs: []
+mobs:
+- basic-pirate-3:100
+- mob-pirate-3:25
+- mob-piratearcher-3:25
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

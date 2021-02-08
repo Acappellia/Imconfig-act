@@ -8,6 +8,10 @@ region:
   yMin: 56
   zMax: 637
   zMin: 554
-mobs: []
+mobs:
+- basic-bug-6:100
+- mob-bug-6:25
+- mob-ghost-6:25
+- elite-ruinguardian-6:10
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

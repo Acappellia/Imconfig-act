@@ -8,6 +8,9 @@ region:
   yMin: 64
   zMax: -584
   zMin: -712
-mobs: []
+mobs:
+- basic-pirate-6:100
+- mob-pirateundead-6:50
+- elite-darkshadow-6:10
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

@@ -11,5 +11,6 @@ region:
 mobs:
 - mob-flamespirit-4:50
 - basic-slime-4:100
+- elite-flameslime-4:10
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

@@ -8,6 +8,7 @@ region:
   yMin: 58
   zMax: -167
   zMin: -225
-mobs: []
+mobs:
+- basic-chick-1:100
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

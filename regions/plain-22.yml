@@ -8,6 +8,9 @@ region:
   yMin: 62
   zMax: -188
   zMin: -296
-mobs: []
+mobs:
+- basic-slime-5:100
+- mob-slime-5:25
+- mob-fireslime-5:25
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

@@ -8,6 +8,10 @@ region:
   yMin: 60
   zMax: -867
   zMin: -935
-mobs: []
+mobs:
+- basic-slime-6:100
+- mob-bbrwitch-6:25
+- mob-bbrwarrior-5:25
+- elite-huolongguo-6:10
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

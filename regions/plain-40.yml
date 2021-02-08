@@ -8,6 +8,9 @@ region:
   yMin: 61
   zMax: 30
   zMin: -66
-mobs: []
+mobs:
+- basic-wolf-3:100
+- mob-wolf-3:25
+- mob-bbrwarrior-3:25
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

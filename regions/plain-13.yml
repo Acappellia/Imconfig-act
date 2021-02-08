@@ -8,6 +8,10 @@ region:
   yMin: 59
   zMax: 524
   zMin: 398
-mobs: []
+mobs:
+- basic-bug-4:100
+- mob-bug-4:25
+- mob-bbr-4:25
+- elite-bugmother-4:10
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

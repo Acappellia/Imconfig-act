@@ -8,6 +8,8 @@ region:
   yMin: 58
   zMax: 888
   zMin: 839
-mobs: []
+mobs:
+- basic-slime-3:100
+- mob-pirateundead-3:50
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

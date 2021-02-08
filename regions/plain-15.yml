@@ -8,6 +8,9 @@ region:
   yMin: 63
   zMax: 429
   zMin: 381
-mobs: []
+mobs:
+- basic-bbr-3:100
+- mob-bbr-3:25
+- mob-bbrarcher-3:25
 followGlobalLevel: false
 maxSpawnAmountOverride: -1
