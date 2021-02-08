@@ -70,10 +70,10 @@ worlds:
     spawn:
       light:
         sky:
-          min: 1
+          min: 0
           max: 15
         block:
-          min: 1
+          min: 0
           max: 15
         total:
           min: 1
