@@ -2,7 +2,7 @@ name: 海盗斧兵
 type: VINDICATOR
 abilities:
 - set-spawn-1
-nbttags: '{HandItems:[{id:"minecraft:stone_axe",Count:1b},{}],HandDropChances:[0.000F,0.000F],Attributes:[{Name:generic.knockback_resistance,Base:0.5}]}'
+nbttags: '{HandItems:[{id:"minecraft:wooden_axe",Count:1b},{}],HandDropChances:[0.000F,0.000F],Attributes:[{Name:generic.knockback_resistance,Base:0.5}]}'
 healthOverride: -1.0
 enableDynamicHealth: false
 dynamicHealthExpression: ''

@@ -2,7 +2,7 @@ name: 海盗小卒
 type: VINDICATOR
 abilities:
 - set-spawn-1
-nbttags: '{Attributes:[{Name:generic.knockback_resistance,Base:0.5}]}'
+nbttags: '{HandItems:[{id:"minecraft:stick",Count:1b},{}],HandDropChances:[0.000F,0.000F],Attributes:[{Name:generic.knockback_resistance,Base:0.5}]}'
 healthOverride: 275.0
 enableDynamicHealth: false
 dynamicHealthExpression: ''

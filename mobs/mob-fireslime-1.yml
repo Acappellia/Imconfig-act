@@ -3,7 +3,7 @@ type: MAGMA_CUBE
 abilities:
 - set-spawn-1
 - set-hit-fire-1
-nbttags: '{Size:2,Attributes:[{Name:generic.knockback_resistance,Base:0.5}]}'
+nbttags: '{Health:200f,Size:2,Attributes:[{Name:generic.max_health,Base:200},{Name:generic.knockback_resistance,Base:0.5}]}'
 healthOverride: -1.0
 enableDynamicHealth: false
 dynamicHealthExpression: ''

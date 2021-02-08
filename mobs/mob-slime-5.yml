@@ -5,7 +5,7 @@ abilities:
 - set-atk-sprayvenon-1
 - set-hit-poison-1
 - set-immune-poison
-nbttags: '{Size:3,Attributes:[{Name:generic.knockback_resistance,Base:0.5}]}'
+nbttags: '{Health:1100f,Size:3,Attributes:[{Name:generic.max_health,Base:1100},{Name:generic.knockback_resistance,Base:0.5}]}'
 healthOverride: -1.0
 enableDynamicHealth: false
 dynamicHealthExpression: ''
