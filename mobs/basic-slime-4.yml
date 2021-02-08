@@ -4,8 +4,8 @@ abilities:
 - set-spawn-1
 - set-hit-poison-1
 - set-immune-poison
-nbttags: '{Health:170f,Size:2,Attributes:[{Name:generic.max_health,Base:170},{Name:generic.knockback_resistance,Base:0.5}]}'
-healthOverride: 170.0
+nbttags: '{Health:350f,Size:2,Attributes:[{Name:generic.max_health,Base:350},{Name:generic.knockback_resistance,Base:0.5}]}'
+healthOverride: 350.0
 enableDynamicHealth: false
 dynamicHealthExpression: ''
 spawn:

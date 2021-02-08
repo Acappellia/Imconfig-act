@@ -4,7 +4,7 @@ abilities:
 - set-spawn-1
 - set-hit-fire-2
 - set-atk-sprayfire-1
-nbttags: '{Size:4,Health:2040f,Attributes:[{Name:generic.knockback_resistance,Base:0.5},{Name:generic.max_health,Base:2940}]}'
+nbttags: '{ArmorItems:[{},{},{},{id:"minecraft:grass",Count:1b,tag:{Enchantments:[{id:"minecraft:depth_strider",lvl:9s}]}}],ActiveEffects:[{Id:30b,Amplifier:9b,Duration:4000000}],Size:4,Health:2040f,Attributes:[{Name:generic.knockback_resistance,Base:0.5},{Name:generic.max_health,Base:2940},{Name:generic.movement_speed,Base:0.4}]}'
 healthOverride: -1.0
 enableDynamicHealth: false
 dynamicHealthExpression: ''

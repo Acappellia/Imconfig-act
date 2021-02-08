@@ -2,7 +2,7 @@ name: 恶狼
 type: WOLF
 abilities:
 - set-spawn-1
-nbttags: '{Attributes:[{Name:generic.knockback_resistance,Base:0.5},{Name:generic.movement_speed,Base:0.4}]}'
+nbttags: '{Attributes:[{Name:generic.knockback_resistance,Base:0.5},{Name:generic.movement_speed,Base:0.45}]}'
 healthOverride: -1.0
 enableDynamicHealth: false
 dynamicHealthExpression: ''

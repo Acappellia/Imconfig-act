@@ -3,7 +3,7 @@ type: ZOMBIE
 abilities:
 - set-spawn-1
 - set-move-speed-1
-nbttags: '{ArmorItems:[{},{},{},{id:"minecraft:chainmail_helmet",Count:1b}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],Attributes:[{Name:generic.knockback_resistance,Base:0.5}]}'
+nbttags: '{ArmorItems:[{},{},{},{id:"minecraft:chainmail_helmet",Count:1b}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],Attributes:[{Name:generic.knockback_resistance,Base:0.5},{Name:generic.movement_speed,Base:0.35}]}'
 healthOverride: -1.0
 enableDynamicHealth: false
 dynamicHealthExpression: ''

@@ -8,7 +8,9 @@ abilities:
 - set-immune-mobdebuff
 - set-summon-pillager
 - set-summon-vindicator
-nbttags: '{Health:3300f,Attributes:[{Name:generic.knockback_resistance,Base:0.5},{Name:generic.max_health,Base:3300}]}'
+- set-summon-poisoncloud-1
+- set-summon-withercloud-1
+nbttags: '{ArmorItems:[{},{},{},{id:"minecraft:grass",Count:1b,tag:{Enchantments:[{id:"minecraft:depth_strider",lvl:9s}]}}],ActiveEffects:[{Id:30b,Amplifier:9b,Duration:4000000}],Health:3300f,Attributes:[{Name:generic.knockback_resistance,Base:0.5},{Name:generic.max_health,Base:3300},{Name:generic.movement_speed,Base:0.5}]}'
 healthOverride: -1.0
 enableDynamicHealth: false
 dynamicHealthExpression: ''

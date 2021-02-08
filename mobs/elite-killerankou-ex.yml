@@ -3,7 +3,7 @@ type: RABBIT
 abilities:
 - set-spawn-1
 - set-move-tpp-2
-nbttags: '{RabbitType:99,Health:1000f,Attributes:[{Name:generic.max_health,Base:1000},{Name:generic.attack_damage,Base:27}],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:400,ShowParticles:0b}]}'
+nbttags: '{ArmorItems:[{},{},{},{id:"minecraft:grass",Count:1b,tag:{Enchantments:[{id:"minecraft:depth_strider",lvl:9s}]}}],ActiveEffects:[{Id:30b,Amplifier:9b,Duration:4000000}],RabbitType:99,Health:1000f,Attributes:[{Name:generic.max_health,Base:1000},{Name:generic.attack_damage,Base:36},{Name:generic.movement_speed,Base:0.42}],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:400,ShowParticles:0b}]}'
 healthOverride: -1.0
 enableDynamicHealth: false
 dynamicHealthExpression: ''

@@ -5,7 +5,8 @@ abilities:
 - set-move-tpp-1
 - set-hit-poison-2
 - set-immune-poison
-nbttags: '{Health:3300f,Attributes:[{Name:generic.knockback_resistance,Base:0.5},{Name:generic.max_health,Base:3300}],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:200,ShowParticles:0b}]}'
+- set-summon-poisoncloud-1
+nbttags: '{ArmorItems:[{},{},{},{id:"minecraft:grass",Count:1b,tag:{Enchantments:[{id:"minecraft:depth_strider",lvl:9s}]}}],Health:3300f,Attributes:[{Name:generic.knockback_resistance,Base:0.5},{Name:generic.max_health,Base:3300},{Name:generic.movement_speed,Base:0.35}],ActiveEffects:[{Id:30b,Amplifier:9b,Duration:4000000},{Id:14b,Amplifier:1b,Duration:200,ShowParticles:0b}]}'
 healthOverride: -1.0
 enableDynamicHealth: false
 dynamicHealthExpression: ''

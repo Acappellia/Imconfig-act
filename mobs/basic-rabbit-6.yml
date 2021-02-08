@@ -2,8 +2,8 @@ name: 小白兔
 type: RABBIT
 abilities:
 - set-spawn-1
-nbttags: '{RabbitType:1,Attributes:[{Name:generic.knockback_resistance,Base:0.5}]}'
-healthOverride: 440.0
+nbttags: '{RabbitType:1,Attributes:[{Name:generic.knockback_resistance,Base:0.5},{Name:generic.movement_speed,Base:0.4}]}'
+healthOverride: 800.0
 enableDynamicHealth: false
 dynamicHealthExpression: ''
 spawn:

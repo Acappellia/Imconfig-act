@@ -2,8 +2,8 @@ name: 野狼
 type: WOLF
 abilities:
 - set-spawn-1
-nbttags: '{Attributes:[{Name:generic.knockback_resistance,Base:0.5},{Name:generic.movement_speed,Base:0.3}]}'
-healthOverride: 170.0
+nbttags: '{Attributes:[{Name:generic.knockback_resistance,Base:0.5},{Name:generic.movement_speed,Base:0.35}]}'
+healthOverride: 350.0
 enableDynamicHealth: false
 dynamicHealthExpression: ''
 spawn:

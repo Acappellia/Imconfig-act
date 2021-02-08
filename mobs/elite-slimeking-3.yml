@@ -4,7 +4,8 @@ abilities:
 - set-spawn-1
 - set-hit-poison-1
 - set-immune-poison
-nbttags: '{Size:8,Health:1350f,Attributes:[{Name:generic.max_health,Base:1350}]}'
+- set-atk-sprayvenon-2
+nbttags: '{ArmorItems:[{},{},{},{id:"minecraft:grass",Count:1b,tag:{Enchantments:[{id:"minecraft:depth_strider",lvl:9s}]}}],ActiveEffects:[{Id:30b,Amplifier:9b,Duration:4000000}],Size:8,Health:1350f,Attributes:[{Name:generic.max_health,Base:1350},{Name:generic.movement_speed,Base:0.38}]}'
 healthOverride: 1350.0
 enableDynamicHealth: false
 dynamicHealthExpression: ''

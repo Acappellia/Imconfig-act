@@ -57,7 +57,7 @@ worlds:
       poison: 0.0
       fire_tick: 0.0
       fire: 0.0
-      lava: 0.0
+      lava: 10.0
       lightning: 1.0
       magic: -1.01
       suffocation: 1.0

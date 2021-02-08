@@ -5,7 +5,7 @@ abilities:
 - set-hit-blind-1
 - set-immune-mobdebuff
 - set-move-speed-1
-nbttags: '{Health:3060f,Attributes:[{Name:generic.max_health,Base:3060},{Name:generic.knockback_resistance,Base:1},{Name:generic.movement_speed,Base:0.4},{Name:generic.attack_damage,Base:15}]}'
+nbttags: '{Health:3060f,Attributes:[{Name:generic.max_health,Base:3060},{Name:generic.knockback_resistance,Base:1},{Name:generic.movement_speed,Base:0.4},{Name:generic.attack_damage,Base:17},{Name:generic.movement_speed,Base:0.4}]}'
 healthOverride: -1.0
 enableDynamicHealth: false
 dynamicHealthExpression: ''
