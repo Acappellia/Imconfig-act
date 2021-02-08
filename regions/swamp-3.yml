@@ -10,5 +10,7 @@ region:
   zMin: -1118
 mobs:
 - basic-slime-3:100
+- mob-bbrarcher-3:25
+- mob-bbrwitch-3:25
 followGlobalLevel: false
 maxSpawnAmountOverride: -1
