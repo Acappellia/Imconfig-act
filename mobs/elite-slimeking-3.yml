@@ -5,7 +5,7 @@ abilities:
 - set-hit-poison-1
 - set-immune-poison
 nbttags: '{Size:8,Health:1350f,Attributes:[{Name:generic.max_health,Base:1350}]}'
-healthOverride: 1350
+healthOverride: 1350.0
 enableDynamicHealth: false
 dynamicHealthExpression: ''
 spawn:

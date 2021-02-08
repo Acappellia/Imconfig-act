@@ -11,5 +11,6 @@ region:
 mobs:
 - basic-wolf-1:100
 - mob-wolf-1:50
+- elite-wolfking-5:5
 followGlobalLevel: false
 maxSpawnAmountOverride: -1
