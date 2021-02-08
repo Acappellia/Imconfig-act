@@ -1,0 +1,16 @@
+name: region
+region:
+  __class__: cat.nyaa.infiniteinfernal.configs.RegionConfig$Region
+  world: Rysnoaks
+  xMax: -911
+  xMin: -1010
+  yMax: 86
+  yMin: 59
+  zMax: -1003
+  zMin: -1120
+mobs:
+- basic-slime-3:100
+- mob-slime-3:25
+- mob-wolf-3:25
+followGlobalLevel: false
+maxSpawnAmountOverride: -1
