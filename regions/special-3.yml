@@ -10,5 +10,6 @@ region:
   zMin: -225
 mobs:
 - basic-chick-1:100
+- special-heartbreaker-5:3
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

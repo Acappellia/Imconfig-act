@@ -12,5 +12,6 @@ mobs:
 - basic-bbr-2:100
 - mob-bbrarcher-2:25
 - mob-bbrwitch-2:25
+- special-strongbbr-4:10
 followGlobalLevel: false
 maxSpawnAmountOverride: -1
