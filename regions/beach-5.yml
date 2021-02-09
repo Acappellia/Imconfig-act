@@ -12,5 +12,6 @@ mobs:
 - basic-pirate-4:100
 - mob-pirate-4:25
 - mob-pirateundead-4:25
+- special-soulmonster-4:10
 followGlobalLevel: false
 maxSpawnAmountOverride: -1
