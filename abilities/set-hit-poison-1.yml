@@ -2,6 +2,6 @@ abilities:
   PotionHit:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityPotionHit
     effect: POISON
-    duration: 200
+    duration: 100
     amplifier: 1
 weight: 5
