@@ -2,12 +2,12 @@ name: region
 region:
   __class__: cat.nyaa.infiniteinfernal.configs.RegionConfig$Region
   world: Rysnoaks
-  xMax: -782
-  xMin: -898
-  yMax: 81
-  yMin: 60
-  zMax: -121
-  zMin: -235
+  xMax: -783
+  xMin: -902
+  yMax: 82
+  yMin: 54
+  zMax: -117
+  zMin: -243
 mobs:
 - basic-chick-1:100
 - mob-bbr-1:35
