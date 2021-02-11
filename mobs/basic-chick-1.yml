@@ -21,6 +21,7 @@ loot:
   imLoot: true
   special:
     __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
-    chance: 0.0
-    list: []
+    chance: 5.0
+    list:
+    - material-chicken:100
   expOverride: -1

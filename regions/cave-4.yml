@@ -10,6 +10,6 @@ region:
   zMin: 536
 mobs:
 - basic-chick-1:100
-- mob-bbrarcher-2:25
+- mob-bug-2:50
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

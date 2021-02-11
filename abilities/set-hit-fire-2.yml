@@ -2,4 +2,8 @@ abilities:
   Fire:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityFire
     duration: 300
+  ignite:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.passive.AbilityIgnite
+    duration: 200
+    chance: 1.0
 weight: 5
