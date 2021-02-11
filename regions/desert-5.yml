@@ -9,7 +9,8 @@ region:
   zMax: -254
   zMin: -318
 mobs:
-- mob-fireslime-5:50
 - basic-slime-5:100
+- mob-fireslime-5:25
+- mob-piratearcher-5:25
 followGlobalLevel: false
 maxSpawnAmountOverride: -1
