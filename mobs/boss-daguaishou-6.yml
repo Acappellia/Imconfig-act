@@ -24,7 +24,7 @@ abilities:
 - set-hit-slow-1
 - set-hit-wither-1
 nbttags: '{ArmorItems:[{},{},{},{id:"minecraft:grass",Count:1b,tag:{Enchantments:[{id:"minecraft:depth_strider",lvl:9s}]}}],ActiveEffects:[{Id:30b,Amplifier:9b,Duration:4000000}],Attributes:[{Name:generic.knockback_resistance,Base:1},{Name:generic.movement_speed,Base:0.4}]}'
-healthOverride: 45000
+healthOverride: 45000.0
 enableDynamicHealth: false
 dynamicHealthExpression: ''
 spawn:
