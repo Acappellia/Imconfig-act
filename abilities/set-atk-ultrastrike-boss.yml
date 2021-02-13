@@ -1,8 +1,8 @@
 abilities:
   UltraStrike:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityUltraStrike
-    amount: 10
-    explodeRange: 8
+    amount: 8
+    explodeRange: 5
     nearbyRange: 64
     damageMultiplier: 2.0
     delay: 40

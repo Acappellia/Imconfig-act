@@ -15,5 +15,6 @@ mobs:
 - elite-darkshadow-6:10
 - elite-huolongguo-6:10
 - elite-ruinguardian-6:3
+- special-frostsoul-1:10
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

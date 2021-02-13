@@ -14,5 +14,6 @@ mobs:
 - mob-flamespirit-6:25
 - elite-shenzhenmage-6:10
 - elite-ruinguardian-6:3
+- special-greensoul-1:10
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

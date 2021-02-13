@@ -1,7 +1,7 @@
 abilities:
   Shingeki:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityShingeki
-    amount: 10
+    amount: 2
     delay: 40
     damageAmplifier: 2.0
     radius: 8.0
