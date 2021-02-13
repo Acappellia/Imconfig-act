@@ -11,5 +11,6 @@ region:
 mobs:
 - basic-wolf-6:100
 - mob-wolf-6:50
+- elite-darkshadow-6:10
 followGlobalLevel: false
 maxSpawnAmountOverride: -1

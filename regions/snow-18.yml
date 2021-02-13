@@ -13,5 +13,6 @@ mobs:
 - mob-bbr-6:20
 - mob-bug-6:25
 - mob-ghost-6:20
+- elite-darkshadow-6:10
 followGlobalLevel: false
 maxSpawnAmountOverride: -1
