@@ -1,0 +1,67 @@
+abilities:
+  AoePotion-1:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityAoePotion
+    effect: BLINDNESS
+    duration: 120
+    amplifier: 9
+    radius: 32.0
+  AoePotion-2:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityAoePotion
+    effect: SLOW
+    duration: 120
+    amplifier: 9
+    radius: 32.0
+  AoePotion-3:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityAoePotion
+    effect: WITHER
+    duration: 120
+    amplifier: 9
+    radius: 32.0
+  AoePotion-4:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityAoePotion
+    effect: POISON
+    duration: 120
+    amplifier: 9
+    radius: 32.0
+  AoePotion-5:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityAoePotion
+    effect: WEAKNESS
+    duration: 120
+    amplifier: 9
+    radius: 32.0
+  AoePotion-6:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityAoePotion
+    effect: HUNGER
+    duration: 120
+    amplifier: 9
+    radius: 32.0
+  AoePotion-7:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityAoePotion
+    effect: HEALTH_BOOST
+    duration: 1200
+    amplifier: -3
+    radius: 32.0
+  AoePotion-8:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityAoePotion
+    effect: CONFUSION
+    duration: 120
+    amplifier: 9
+    radius: 32.0
+  SkillEffect:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySkillEffect
+    particle:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: MOB_APPEARANCE
+      deltaX: 0.2
+      deltaY: 0.5
+      deltaZ: 0.2
+      speed: 1.0
+      amount: 1
+      extraData: ''
+      forced: false
+    particleEnabled: true
+    soundEnabled: true
+    sound: ENTITY_ELDER_GUARDIAN_CURSE
+    pitch: 0.8
+    volume: 1.0
+weight: 5

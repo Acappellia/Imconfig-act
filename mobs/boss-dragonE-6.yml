@@ -1,0 +1,48 @@
+name: '&c巨龙幻影'
+type: WITHER_SKELETON
+abilities:
+- set-spawn-boss
+- set-immune-boss
+- set-atk-fang-boss
+- set-atk-fang-boss
+- set-atk-fang-boss
+- set-atk-sprayfire-boss
+- set-atk-sprayfire-boss
+- set-atk-sprayfire-boss
+- set-atk-ultrastrike-boss
+- set-atk-shingeki-boss
+- set-shield-boss
+- set-shield-boss
+- set-move-tp-boss
+- set-move-tp-boss
+- set-move-tpp-boss 
+- set-move-tpp-boss
+- set-hit-blind-1
+- set-hit-fire-2
+- set-hit-knockback-2
+- set-hit-poison-1
+- set-hit-slow-1
+- set-hit-wither-1
+nbttags: '{ArmorItems:[{},{},{},{id:"minecraft:grass",Count:1b,tag:{Enchantments:[{id:"minecraft:depth_strider",lvl:9s}]}}],ActiveEffects:[{Id:30b,Amplifier:9b,Duration:4000000}],Attributes:[{Name:generic.knockback_resistance,Base:1},{Name:generic.movement_speed,Base:0.4}]}'
+healthOverride: 19500
+enableDynamicHealth: false
+dynamicHealthExpression: ''
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 100
+  levels:
+  - '6'
+  worlds:
+  - Rysnoaks
+  biomes: []
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 100.0
+    list:
+    - loot-dragon:100
+  expOverride: -1

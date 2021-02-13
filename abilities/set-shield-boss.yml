@@ -1,0 +1,35 @@
+abilities:
+  ParticleShield:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilityParticleShield
+    particleConfig:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: VILLAGER_ANGRY
+      deltaX: 2.0
+      deltaY: 0.0
+      deltaZ: 2.0
+      speed: 0.1
+      amount: 10
+      extraData: ''
+      forced: false
+    duration: 100
+    resistance: 100.0
+    thornsPercentage: 100.0
+    delay: 30
+  SkillEffect:
+    __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySkillEffect
+    particle:
+      __class__: cat.nyaa.infiniteinfernal.configs.ParticleConfig
+      type: BARRIER
+      deltaX: 10.0
+      deltaY: 10.0
+      deltaZ: 10.0
+      speed: 0.0
+      amount: 500
+      extraData: ''
+      forced: false
+    particleEnabled: true
+    soundEnabled: true
+    sound: ENTITY_MOOSHROOM_CONVERT
+    pitch: 0.0
+    volume: 3.0
+weight: 5
