@@ -1,0 +1,42 @@
+name: '&c大副 达芙'
+type: VINDICATOR
+abilities:
+- set-spawn-boss
+- set-immune-boss
+- set-thorn-boss
+- set-atk-fang-boss
+- set-atk-fang-boss
+- set-atk-fang-boss
+- set-atk-ultrastrike-boss
+- set-debuff-all
+- set-move-tpp-boss
+- set-move-tpp-boss
+- set-summon-pirate
+- set-hit-blind-1
+- set-hit-fire-2
+- set-hit-poison-1
+- set-hit-slow-1
+- set-hit-wither-1
+nbttags: '{Tags:["pirate"],HandItems:[{id:"minecraft:diamond_axe",Count:1b},{}],HandDropChances:[0.000F,0.000F],ArmorItems:[{},{},{},{id:"minecraft:stone_button",Count:1b,tag:{Enchantments:[{id:"minecraft:depth_strider",lvl:9s}]}}],ActiveEffects:[{Id:10b,Amplifier:127b,Duration:4000000,ShowParticles:0b},{Id:30b,Amplifier:9b,Duration:4000000}],Attributes:[{Name:generic.knockback_resistance,Base:1},{Name:generic.movement_speed,Base:0.42}]}'
+healthOverride: 68000.0
+enableDynamicHealth: false
+dynamicHealthExpression: ''
+spawn:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobSpawnConfig
+  autoSpawn: true
+  weight: 100
+  levels:
+  - '6'
+  worlds:
+  - Rysnoaks
+  biomes: []
+loot:
+  __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig
+  vanilla: false
+  imLoot: true
+  special:
+    __class__: cat.nyaa.infiniteinfernal.configs.MobConfig$MobLootConfig$SpecialConfig
+    chance: 100.0
+    list:
+    - loot-dafu:100
+  expOverride: -1
