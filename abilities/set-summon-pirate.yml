@@ -1,7 +1,7 @@
 abilities:
   Summon:
     __class__: cat.nyaa.infiniteinfernal.ability.impl.active.AbilitySummon
-    nbt: '{Tags:["pirate"],DeathLootTable:"null",Health:2500f,HandItems:[{id:"minecraft:golden_axe",Count:1b},{}],HandDropChances:[0.000F,0.085F],ArmorItems:[{},{},{id:"minecraft:light_gray_dye",Count:1b,tag:{display:{Name:\u0027{"text":"海盗的怨魂","color":"red","italic":false}\u0027,Lore:[\u0027{"text":"任务物品","color":"white","italic":false}\u0027,\u0027{"text":"生前的仇恨终于得到了解放","color":"dark_gray","italic":false}\u0027]}}},{id:"minecraft:stone_button",Count:1b,tag:{Enchantments:[{id:"minecraft:depth_strider",lvl:10s}]}}],ArmorDropChances:[0.085F,0.085F,1.000F,0.000F],ActiveEffects:[{Id:30b,Amplifier:9b,Duration:4000000,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:2500},{Name:generic.knockback_resistance,Base:1},{Name:generic.movement_speed,Base:0.4},{Name:generic.attack_damage,Base:13}]}'
+    nbt: '{Tags:["pirate"],DeathLootTable:"null",Health:2500f,HandItems:[{id:"minecraft:golden_axe",Count:1b},{}],HandDropChances:[0.000F,0.085F],ArmorItems:[{},{},{id:"minecraft:light_gray_dye",Count:1b,tag:{display:{Name:''{"text":"海盗的怨魂","color":"red","italic":false}'',Lore:[''{"text":"任务物品","color":"white","italic":false}'',''{"text":"生前的仇恨终于得到了解放","color":"dark_gray","italic":false}'']}}},{id:"minecraft:stone_button",Count:1b,tag:{Enchantments:[{id:"minecraft:depth_strider",lvl:10s}]}}],ArmorDropChances:[0.085F,0.085F,1.000F,0.000F],ActiveEffects:[{Id:30b,Amplifier:9b,Duration:4000000,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:2500},{Name:generic.knockback_resistance,Base:1},{Name:generic.movement_speed,Base:0.4},{Name:generic.attack_damage,Base:13}]}'
     amount: 2
     radius: 16.0
     type: VINDICATOR

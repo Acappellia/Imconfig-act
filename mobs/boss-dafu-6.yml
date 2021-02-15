@@ -12,11 +12,6 @@ abilities:
 - set-move-tpp-boss
 - set-move-tpp-boss
 - set-summon-pirate
-- set-hit-blind-1
-- set-hit-fire-2
-- set-hit-poison-1
-- set-hit-slow-1
-- set-hit-wither-1
 nbttags: '{Tags:["pirate"],HandItems:[{id:"minecraft:diamond_axe",Count:1b},{}],HandDropChances:[0.000F,0.000F],ArmorItems:[{},{},{},{id:"minecraft:stone_button",Count:1b,tag:{Enchantments:[{id:"minecraft:depth_strider",lvl:9s}]}}],ActiveEffects:[{Id:10b,Amplifier:127b,Duration:4000000,ShowParticles:0b},{Id:30b,Amplifier:9b,Duration:4000000}],Attributes:[{Name:generic.knockback_resistance,Base:1},{Name:generic.movement_speed,Base:0.42}]}'
 healthOverride: 68000.0
 enableDynamicHealth: false
