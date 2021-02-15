@@ -13,5 +13,6 @@ mobs:
 - mob-pirateundead-6:25
 - basic-pirate-6:100
 - elite-ruinguardian-6:10
+- mob-piratearcher-6:5
 followGlobalLevel: false
 maxSpawnAmountOverride: -1
